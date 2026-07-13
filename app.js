@@ -1,10 +1,11 @@
-let questions = [];
+let masterQuestionsPool = []; // Holds the original, untouched JSON data
+let questions = [];           // Holds the current session's questions
 let currentQuestionIndex = 0;
 let score = 0;
 
 // Tracking structures
-let wrongQuestions = []; 
-let skippedQuestions = [];
+let wrongQuestions = [];      // Stores the actual question objects that were failed
+let skippedQuestions = [];    // Stores the actual question objects that were skipped
 let answeredQuestions = new Set(); 
 
 // Timer variables
@@ -24,45 +25,58 @@ const scoreText = document.getElementById('score');
 const timerDisplay = document.getElementById('quiz-timer');
 const bulkActions = document.getElementById('bulk-actions');
 
-// 1. Fetch JSON file and Shuffle ONLY Options
+// 1. Fetch JSON file
 async function loadQuizData() {
     try {
         const response = await fetch('quiz-data.json');
-        const rawData = await response.json();
+        masterQuestionsPool = await response.json();
         
-        // Keep questions in their original order
-        questions = rawData;
-        
-        // NEW/UPDATED: Shuffle ONLY the options inside each individual question
-        questions.forEach(q => {
-            q.options = shuffleArray(q.options);
-        });
-
-        startTimer();
-        showQuestion();
+        // Start a fresh standard quiz session
+        startQuizSession(masterQuestionsPool);
     } catch (error) {
         questionText.innerText = "Failed to load quiz questions.";
         console.error(error);
     }
 }
 
+// 2. Initialize or Restart a Quiz Session
+function startQuizSession(questionSet) {
+    // Deep clone the incoming question set so modifications don't break the master pool
+    questions = questionSet.map(q => ({
+        ...q,
+        options: shuffleArray([...q.options]) // Shuffles options freshly per session
+    }));
+
+    // Reset all tracking states
+    currentQuestionIndex = 0;
+    score = 0;
+    scoreText.innerText = score;
+    wrongQuestions = [];
+    skippedQuestions = [];
+    answeredQuestions.clear();
+    
+    // Reset and start timer
+    clearInterval(timerInterval);
+    totalTimeElapsed = 0;
+    startTimer();
+    
+    // UI elements reset
+    bulkActions.classList.remove('hidden');
+    showQuestion();
+}
+
 // Fisher-Yates Shuffling Utility Function
 function shuffleArray(array) {
     let currentIndex = array.length, randomIndex;
-    let shuffled = [...array]; 
-
     while (currentIndex !== 0) {
         randomIndex = Math.floor(Math.random() * currentIndex);
         currentIndex--;
-
-        [shuffled[currentIndex], shuffled[randomIndex]] = [
-            shuffled[randomIndex], shuffled[currentIndex]
-        ];
+        [array[currentIndex], array[randomIndex]] = [array[randomIndex], array[currentIndex]];
     }
-    return shuffled;
+    return array;
 }
 
-// 2. Timer Mechanics
+// 3. Timer Mechanics
 function startTimer() {
     startTime = Date.now();
     timerInterval = setInterval(() => {
@@ -77,7 +91,7 @@ function updateTimerUI(seconds) {
     timerDisplay.innerText = `Time: ${mins}:${secs}`;
 }
 
-// 3. Render Question Elements
+// 4. Render Question Elements
 function showQuestion() {
     resetState();
     const currentQuestion = questions[currentQuestionIndex];
@@ -102,13 +116,14 @@ function showQuestion() {
     skipBtn.classList.remove('hidden');
 }
 
-// 4. Choice Validation Logic
+// 5. Choice Validation Logic
 function selectOption(selectedButton, questionData) {
     const allButtons = optionsContainer.querySelectorAll('.option-btn');
     allButtons.forEach(btn => btn.disabled = true);
     skipBtn.classList.add('hidden');
 
-    skippedQuestions = skippedQuestions.filter(index => index !== currentQuestionIndex);
+    // Remove from skipped list if answered
+    skippedQuestions = skippedQuestions.filter(q => q.question !== questionData.question);
     const wasAlreadyAnswered = answeredQuestions.has(currentQuestionIndex);
 
     if (selectedButton.innerText === questionData.correct_answer) {
@@ -123,8 +138,9 @@ function selectOption(selectedButton, questionData) {
             if (btn.innerText === questionData.correct_answer) btn.classList.add('correct');
         });
         
-        if (!wrongQuestions.includes(currentQuestionIndex)) {
-            wrongQuestions.push(currentQuestionIndex);
+        // Save the whole question data object into the wrong list tracker
+        if (!wrongQuestions.some(q => q.question === questionData.question)) {
+            wrongQuestions.push(questionData);
         }
     }
 
@@ -141,7 +157,7 @@ function resetState() {
     optionsContainer.innerHTML = '';
 }
 
-// 5. Navigation Click Handles
+// 6. Navigation Click Handles
 nextBtn.addEventListener('click', () => {
     currentQuestionIndex++;
     if (currentQuestionIndex < questions.length) {
@@ -159,8 +175,9 @@ backBtn.addEventListener('click', () => {
 });
 
 skipBtn.addEventListener('click', () => {
-    if (!answeredQuestions.has(currentQuestionIndex) && !skippedQuestions.includes(currentQuestionIndex)) {
-        skippedQuestions.push(currentQuestionIndex);
+    const currentQuestion = questions[currentQuestionIndex];
+    if (!answeredQuestions.has(currentQuestionIndex) && !skippedQuestions.some(q => q.question === currentQuestion.question)) {
+        skippedQuestions.push(currentQuestion);
     }
     
     currentQuestionIndex++;
@@ -174,15 +191,15 @@ skipBtn.addEventListener('click', () => {
 skipAllBtn.addEventListener('click', () => {
     if (confirm("Are you sure you want to skip all remaining questions and view your summary?")) {
         for (let i = currentQuestionIndex; i < questions.length; i++) {
-            if (!answeredQuestions.has(i) && !skippedQuestions.includes(i)) {
-                skippedQuestions.push(i);
+            if (!answeredQuestions.has(i) && !skippedQuestions.some(q => q.question === questions[i].question)) {
+                skippedQuestions.push(questions[i]);
             }
         }
         showQuizCompleteState();
     }
 });
 
-// 6. Complete State View Processing
+// 7. Complete State View Processing
 function showQuizCompleteState() {
     clearInterval(timerInterval); 
     resetState();
@@ -211,8 +228,8 @@ function showQuizCompleteState() {
         noSkipsMsg.innerText = "No skipped questions.";
         reviewWrapper.appendChild(noSkipsMsg);
     } else {
-        skippedQuestions.forEach(index => {
-            reviewWrapper.appendChild(createReviewBlock(index + 1, questions[index], true));
+        skippedQuestions.forEach((questionData, idx) => {
+            reviewWrapper.appendChild(createReviewBlock(idx + 1, questionData, true));
         });
     }
 
@@ -227,9 +244,57 @@ function showQuizCompleteState() {
         perfectScoreMsg.innerText = "No incorrect responses logged!";
         reviewWrapper.appendChild(perfectScoreMsg);
     } else {
-        wrongQuestions.forEach(index => {
-            reviewWrapper.appendChild(createReviewBlock(index + 1, questions[index], false));
+        wrongQuestions.forEach((questionData, idx) => {
+            reviewWrapper.appendChild(createReviewBlock(idx + 1, questionData, false));
         });
+    }
+
+    // NEW DYNAMIC REATTEMPT ACTIONS
+    const actionContainer = document.createElement('div');
+    actionContainer.style.marginTop = "25px";
+    actionContainer.style.display = "flex";
+    actionContainer.style.flexDirection = "column";
+    actionContainer.style.gap = "10px";
+
+    const totalReviewItems = wrongQuestions.length + skippedQuestions.length;
+
+    if (totalReviewItems > 0) {
+        // If there's a mix of both, give a master button to clear out both categories
+        if (wrongQuestions.length > 0 && skippedQuestions.length > 0) {
+            const reattemptAllBtn = document.createElement('button');
+            reattemptAllBtn.innerText = `🔄 Reattempt All Missed & Skipped (${totalReviewItems})`;
+            reattemptAllBtn.classList.add('reattempt-btn');
+            reattemptAllBtn.style.background = "var(--primary)";
+            reattemptAllBtn.addEventListener('click', () => {
+                startQuizSession([...wrongQuestions, ...skippedQuestions]);
+            });
+            actionContainer.appendChild(reattemptAllBtn);
+        }
+
+        // Individual button for Wrong Questions
+        if (wrongQuestions.length > 0) {
+            const reattemptWrongBtn = document.createElement('button');
+            reattemptWrongBtn.innerText = `❌ Reattempt Only Incorrect (${wrongQuestions.length})`;
+            reattemptWrongBtn.classList.add('reattempt-btn');
+            reattemptWrongBtn.addEventListener('click', () => {
+                startQuizSession(wrongQuestions);
+            });
+            actionContainer.appendChild(reattemptWrongBtn);
+        }
+
+        // Individual button for Skipped Questions
+        if (skippedQuestions.length > 0) {
+            const reattemptSkippedBtn = document.createElement('button');
+            reattemppedSkippedBtn.innerText = `⚠️ Reattempt Only Skipped (${skippedQuestions.length})`;
+            reattemptSkippedBtn.classList.add('reattempt-btn');
+            reattemptSkippedBtn.style.background = "var(--warning)";
+            reattemptSkippedBtn.addEventListener('click', () => {
+                startQuizSession(skippedQuestions);
+            });
+            actionContainer.appendChild(reattemptSkippedBtn);
+        }
+
+        reviewWrapper.appendChild(actionContainer);
     }
 
     optionsContainer.appendChild(reviewWrapper);
@@ -260,4 +325,3 @@ function createReviewBlock(labelIndex, qData, isSkipped) {
 }
 
 loadQuizData();
-        
