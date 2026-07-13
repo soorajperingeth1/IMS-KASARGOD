@@ -12,8 +12,8 @@
             <h1>Pharmacy Board Quiz</h1>
             <div class="header-controls">
                 <div id="progress">Question 1 of 100</div>
-                <!-- NEW: Favorite Button -->
-                <button id="fav-btn" class="fav-action-btn">☆ Favorite</button>
+                <!-- NEW: Live Timer Display -->
+                <div id="quiz-timer" class="timer-display">Time: 00:00</div>
             </div>
         </header>
 
@@ -25,7 +25,6 @@
 
         <footer>
             <div id="score-board">Score: <span id="score">0</span></div>
-            <!-- NEW: Navigation Grid Controls -->
             <div class="nav-controls">
                 <button id="back-btn" class="nav-btn hidden">Back</button>
                 <button id="skip-btn" class="nav-btn">Skip</button>
@@ -33,13 +32,10 @@
             </div>
         </footer>
 
-        <!-- NEW: Favorite Section display panel -->
-        <hr class="section-divider">
-        <div class="favorites-section">
-            <h3>★ Favorite Questions List</h3>
-            <ul id="favorites-list">
-                <li>No favorite questions saved yet.</li>
-            </ul>
+        <!-- NEW: Skip All Action Bottom Area -->
+        <div id="bulk-actions" class="bulk-actions-container">
+            <hr class="section-divider">
+            <button id="skip-all-btn" class="skip-all-btn">⏩ Skip All Questions & View Results</button>
         </div>
     </div>
     <script src="app.js"></script>
