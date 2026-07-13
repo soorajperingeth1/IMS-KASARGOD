@@ -58,8 +58,17 @@ body {
     background: #e2e8f0;
 }
 
-.correct { background-color: #c6f6d5 !important; border-color: var(--success); color: #22543d; }
-.incorrect { background-color: #fed7d7 !important; border-color: var(--danger); color: #742a2a; }
+.correct { 
+    background-color: #c6f6d5 !important; 
+    border-color: var(--success); 
+    color: #22543d; 
+}
+
+.incorrect { 
+    background-color: #fed7d7 !important; 
+    border-color: var(--danger); 
+    color: #742a2a; 
+}
 
 .explanation {
     background: #ebf8ff;
@@ -157,6 +166,43 @@ footer {
 
 #favorites-list li:hover {
     background: #edf2f7;
+}
+
+/* Completion Screen Summaries Extensions */
+.review-wrapper {
+    width: 100%;
+    max-height: 450px;
+    overflow-y: auto;
+    text-align: left;
+    padding-right: 10px;
+    margin-top: 20px;
+}
+
+.review-card {
+    background: #f7fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 12px;
+    font-size: 14px;
+}
+
+.correct-tag {
+    color: var(--success);
+    font-weight: bold;
+}
+
+.explanation-tag {
+    color: var(--primary);
+    font-weight: bold;
+}
+
+.review-explanation {
+    background: #ebf8ff;
+    padding: 8px 12px;
+    border-radius: 4px;
+    margin-top: 6px;
+    border-left: 3px solid var(--primary);
 }
 
 .hidden { display: none !important; }
