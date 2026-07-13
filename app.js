@@ -249,7 +249,7 @@ function showQuizCompleteState() {
         });
     }
 
-    // NEW DYNAMIC REATTEMPT ACTIONS
+    // DYNAMIC REATTEMPT ACTIONS
     const actionContainer = document.createElement('div');
     actionContainer.style.marginTop = "25px";
     actionContainer.style.display = "flex";
@@ -259,7 +259,7 @@ function showQuizCompleteState() {
     const totalReviewItems = wrongQuestions.length + skippedQuestions.length;
 
     if (totalReviewItems > 0) {
-        // If there's a mix of both, give a master button to clear out both categories
+        // Master Button for both Wrong and Skipped Combined
         if (wrongQuestions.length > 0 && skippedQuestions.length > 0) {
             const reattemptAllBtn = document.createElement('button');
             reattemptAllBtn.innerText = `🔄 Reattempt All Missed & Skipped (${totalReviewItems})`;
@@ -271,7 +271,7 @@ function showQuizCompleteState() {
             actionContainer.appendChild(reattemptAllBtn);
         }
 
-        // Individual button for Wrong Questions
+        // Individual Button: Wrong Questions Only
         if (wrongQuestions.length > 0) {
             const reattemptWrongBtn = document.createElement('button');
             reattemptWrongBtn.innerText = `❌ Reattempt Only Incorrect (${wrongQuestions.length})`;
@@ -282,10 +282,10 @@ function showQuizCompleteState() {
             actionContainer.appendChild(reattemptWrongBtn);
         }
 
-        // Individual button for Skipped Questions
+        // Individual Button: Skipped Questions Only (TYPO FIXED HERE)
         if (skippedQuestions.length > 0) {
             const reattemptSkippedBtn = document.createElement('button');
-            reattemppedSkippedBtn.innerText = `⚠️ Reattempt Only Skipped (${skippedQuestions.length})`;
+            reattemptSkippedBtn.innerText = `⚠️ Reattempt Only Skipped (${skippedQuestions.length})`;
             reattemptSkippedBtn.classList.add('reattempt-btn');
             reattemptSkippedBtn.style.background = "var(--warning)";
             reattemptSkippedBtn.addEventListener('click', () => {
