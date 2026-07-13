@@ -5,6 +5,7 @@
     --bg: #f7fafc;
     --card: #ffffff;
     --text: #2d3748;
+    --warning: #d69e2e;
 }
 
 body {
@@ -26,6 +27,13 @@ body {
     padding: 30px;
     border-radius: 12px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+.header-controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
 }
 
 .options-grid {
@@ -61,14 +69,94 @@ body {
     margin-top: 20px;
 }
 
-button#next-btn {
-    background: var(--primary);
-    color: white;
-    border: none;
-    padding: 12px 24px;
-    border-radius: 6px;
-    cursor: pointer;
-    float: right;
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 25px;
+    flex-wrap: wrap;
+    gap: 15px;
 }
 
-.hidden { display: none; }
+.nav-controls {
+    display: flex;
+    gap: 10px;
+}
+
+.nav-btn {
+    background: #e2e8f0;
+    color: var(--text);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background 0.2s;
+}
+
+.nav-btn:hover {
+    background: #cbd5e0;
+}
+
+.nav-btn.primary-btn {
+    background: var(--primary);
+    color: white;
+}
+
+.nav-btn.primary-btn:hover {
+    background: #2b6cb0dd;
+}
+
+.fav-action-btn {
+    background: transparent;
+    border: 1px solid #cbd5e0;
+    padding: 6px 12px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: all 0.2s;
+}
+
+.fav-action-btn.favorited {
+    background: #fefcbf;
+    border-color: var(--warning);
+    color: #b7791f;
+}
+
+.section-divider {
+    border: 0;
+    border-top: 1px solid #edf2f7;
+    margin: 30px 0 20px 0;
+}
+
+.favorites-section h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+#favorites-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    max-height: 150px;
+    overflow-y: auto;
+}
+
+#favorites-list li {
+    padding: 8px 12px;
+    background: #f7fafc;
+    margin-bottom: 6px;
+    border-radius: 6px;
+    font-size: 14px;
+    border: 1px solid #e2e8f0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    transition: background 0.2s;
+}
+
+#favorites-list li:hover {
+    background: #edf2f7;
+}
+
+.hidden { display: none !important; }
