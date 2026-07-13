@@ -1,0 +1,617 @@
+[
+  {
+    "id": 21,
+    "question": "In tablet manufacturing, TALC is used as",
+    "options": ["Diluent", "Granulating agent", "Glidant", "Disintegrating agent"],
+    "correct_answer": "Glidant",
+    "explanation": "Talc reduces interparticulate friction, thereby improving the flow properties of tablet granules or powders from the hopper into the die cavity during compression."
+  },
+  {
+    "id": 22,
+    "question": "SCHICK TEST is done to",
+    "options": [
+      "Detect the degree of immunity against Diphtheria.",
+      "Detect the degree of immunity against Tuberculosis",
+      "Detect the degree of immunity against Typhoid",
+      "identify the presence of Ketone bodies in urine"
+    ],
+    "correct_answer": "Detect the degree of immunity against Diphtheria.",
+    "explanation": "The Schick test is a diagnostic skin test used to determine whether or not a person is susceptible to or immune to Diphtheria, caused by Corynebacterium diphtheriae."
+  },
+  {
+    "id": 23,
+    "question": "Glycerin or Sorbitol is added to gelatin in the preparation of soft gelatin capsules as",
+    "options": ["Preservatives", "Plasticizer", "Polishing agent", "Sweetening agent"],
+    "correct_answer": "Plasticizer",
+    "explanation": "Plasticizers like glycerin, sorbitol, or propylene glycol are added to soft gelatin capsules to ensure flexibility, elasticity, and softness by reducing the glass transition temperature of gelatin."
+  },
+  {
+    "id": 24,
+    "question": "Principle of Size Reduction in Ball Mill is",
+    "options": ["Compression", "Impact", "Attrition", "Combination of Impact and Attrition"],
+    "correct_answer": "Combination of Impact and Attrition",
+    "explanation": "In a ball mill, size reduction occurs due to impact as balls drop from the top of the shell onto the material, and attrition as the balls roll and rub against each other and the material."
+  },
+  {
+    "id": 25,
+    "question": "Eugenia caryophyllus is the botanical name of",
+    "options": ["Clove", "Eucalyptus", "Coriander", "Cardamom"],
+    "correct_answer": "Clove",
+    "explanation": "Eugenia caryophyllus (synonym Syzygium aromaticum) belongs to the family Myrtaceae and is the botanical source for clove."
+  },
+  {
+    "id": 26,
+    "question": "Who among the following is not an Ex-officio member of central council of Pharmacy Council of India",
+    "options": [
+      "Director General, Health Services",
+      "Drugs Controller of India",
+      "Director, Central Drugs Laboratory",
+      "Health Secretary, Govt. of India"
+    ],
+    "correct_answer": "Health Secretary, Govt. of India",
+    "explanation": "According to the Pharmacy Act 1948, the three ex-officio members of the PCI are the Director General of Health Services, the Drugs Controller of India, and the Director of the Central Drugs Laboratory."
+  },
+  {
+    "id": 27,
+    "question": "The limit test of Iron depends upon the interaction of iron with",
+    "options": ["Barium Sulphate reagent", "Diphenyl thiocarbazone", "Thioglycollic acid", "Mercuric Chloride"],
+    "correct_answer": "Thioglycollic acid",
+    "explanation": "The limit test of iron is based on the reaction of iron with thioglycollic acid in a medium citric acid buffered with ammonia, forming a pale pink to deep reddish-purple colored ferric thioglycollate complex."
+  },
+  {
+    "id": 28,
+    "question": "In relation to emulsion, formation of a layer of relatively concentrated emulsion above or below the surface is known as",
+    "options": ["Cracking", "Creaming", "Mottling", "Phase inversion"],
+    "correct_answer": "Creaming",
+    "explanation": "Creaming is a reversible phase separation process in which dispersed droplets, driven by buoyancy or gravity, aggregate to form a concentrated layer at the top or bottom of the emulsion."
+  },
+  {
+    "id": 29,
+    "question": "Drugs Inspector is appointed as per the provisions of",
+    "options": [
+      "Pharmacy Act 1948",
+      "Drugs and Cosmetics Act 1945",
+      "Drugs Inspector Act 1940",
+      "Narcotic and Psychotropic Substances Act 1985"
+    ],
+    "correct_answer": "Drugs and Cosmetics Act 1945",
+    "explanation": "Drug Inspectors are appointed under Section 21 of the Drugs and Cosmetics Act (often referred along with its rules finalized in 1945) by central or state governments."
+  },
+  {
+    "id": 30,
+    "question": "Presence of lignified trichomes is the characteristic microscopic feature of",
+    "options": ["Nux-vomica", "Digitalis", "Datura", "Cinchona"],
+    "correct_answer": "Nux-vomica",
+    "explanation": "Nux-vomica seeds (Strychnos nux-vomica) uniquely feature abundant, closely arranged, thick-walled, lignified clothing trichomes covering their epidermal surface."
+  },
+  {
+    "id": 31,
+    "question": "An example for an anthracene glycoside",
+    "options": ["Purpurea glycoside", "Diosgenin", "Cantharidin", "Sennoside"],
+    "correct_answer": "Sennoside",
+    "explanation": "Sennosides (found in Senna leaves) are well-known anthraquinone/anthracene glycosides used primarily as stimulant laxatives."
+  },
+  {
+    "id": 32,
+    "question": "Hydrogen Peroxide IP used as antiseptic contains",
+    "options": ["100% w/v of Hydrogen peroxide", "25% w/v of Hydrogen Peroxide", "6% w/v of Hydrogen Peroxide", "27% w/v of Hydrogen Peroxide"],
+    "correct_answer": "6% w/v of Hydrogen Peroxide",
+    "explanation": "Hydrogen Peroxide Solution IP (commonly called 20-volume hydrogen peroxide) contains roughly 6% w/v of H2O2."
+  },
+  {
+    "id": 33,
+    "question": "The agent used as a radio-opaque contrast medium:",
+    "options": ["Radioactive Sodium Iodide", "Colloidal Gold Injection", "Barium Sulphate", "Sodium Iodo hippurate"],
+    "correct_answer": "Barium Sulphate",
+    "explanation": "Barium sulphate is an insoluble, heavy metal compound widely used as a radio-opaque contrast agent for X-ray imaging of the gastrointestinal tract (Barium meal)."
+  },
+  {
+    "id": 34,
+    "question": "When an hypotonic solution is injected into blood stream, causes",
+    "options": ["Haemolysis", "Shrinkage of blood cells", "Sclerosis of veins", "No characteristic change"],
+    "correct_answer": "Haemolysis",
+    "explanation": "An hypotonic solution has lower osmotic pressure than intracellular fluid. Water diffuses into red blood cells via osmosis, causing them to swell and burst (haemolysis)."
+  },
+  {
+    "id": 35,
+    "question": "Sodium lauryl Sulphate is",
+    "options": ["Cationic surface active agents", "Ampholytic surface active agents", "Nonionic surface active agents", "Anionic surface active agents"],
+    "correct_answer": "Anionic surface active agents",
+    "explanation": "Sodium Lauryl Sulphate (SLS) is a classic anionic surfactant containing a hydrophilic sulphate head group carrying a negative charge."
+  },
+  {
+    "id": 36,
+    "question": "A toxoid vaccine is:",
+    "options": ["Killed bacterial suspension", "Live bacterial suspension", "Live viral Vaccine", "Toxins that have been incubated with formalin"],
+    "correct_answer": "Toxins that have been incubated with formalin",
+    "explanation": "Toxoids are bacterial exotoxins whose toxicity has been inactivated by chemical treatment (e.g., formalin/formaldehyde) while retaining their immunogenicity."
+  },
+  {
+    "id": 37,
+    "question": "0.1gms contains:",
+    "options": ["1000 mg", "100 mg", "10 mg", "1 mg"],
+    "correct_answer": "100 mg",
+    "explanation": "Since 1 gram = 1000 milligrams, 0.1 gram = 0.1 * 1000 = 100 mg."
+  },
+  {
+    "id": 38,
+    "question": "Volume of 95% alcohol required to prepare 500 ml of 20% alcohol is:",
+    "options": ["80 ml", "50 ml", "105 ml", "150 ml"],
+    "correct_answer": "105 ml",
+    "explanation": "Using the equation C1*V1 = C2*V2: 95% * V1 = 20% * 500 ml -> V1 = 10000 / 95 = 105.26 ml, rounded to 105 ml."
+  },
+  {
+    "id": 39,
+    "question": "Which among the following is a blood coagulation factor:",
+    "options": ["Sodium", "Calcium", "Potassium", "Manganese"],
+    "correct_answer": "Calcium",
+    "explanation": "Calcium ions represent Coagulation Factor IV, which is essential for several steps of both the intrinsic and extrinsic blood clotting pathways."
+  },
+  {
+    "id": 40,
+    "question": "An example for a drug that undergoes extensive first pass metabolism:",
+    "options": ["Testosterone", "Phenobarbitone", "Tolbutamide", "Theophylline"],
+    "correct_answer": "Testosterone",
+    "explanation": "Testosterone undergoes massive hepatic degradation during its first pass through the liver, making oral bioavailability extremely low and necessitating alternative administration routes."
+  },
+  {
+    "id": 41,
+    "question": "Bacillus Calmette Guerin Vaccine is",
+    "options": [
+      "Suspension of living cells of a strain of Mycobacterium tuberculosis",
+      "Suspension of living cells of a strain of Bordetella pertusis",
+      "Suspension of living cells of a strain of Salmonella typhi",
+      "Suspension of living cells of a strain of Vibrio cholerae"
+    ],
+    "correct_answer": "Suspension of living cells of a strain of Mycobacterium tuberculosis",
+    "explanation": "BCG vaccine contains live attenuated strains derived from Mycobacterium bovis (closely matching M. tuberculosis) used to provide protection against tuberculosis."
+  },
+  {
+    "id": 42,
+    "question": "The toxic protein present in castor oil is",
+    "options": ["Ricinoleic acid", "Ricin", "Isoricinoleic acid", "Linoleic acid"],
+    "correct_answer": "Ricin",
+    "explanation": "Ricin is a highly potent, toxic ribosomal-inactivating plant glycoprotein found natively in the seeds of the castor oil plant (Ricinus communis)."
+  },
+  {
+    "id": 43,
+    "question": "Calamine IP is",
+    "options": ["Aluminium silicate with ferric oxide", "Magnesium silicate with ferric oxide", "Calcium oxide with ferric oxide", "Zinc oxde with ferric oxide"],
+    "correct_answer": "Zinc oxde with ferric oxide",
+    "explanation": "Calamine IP consists mostly of Zinc Oxide (ZnO) with a small proportion (about 0.5%) of ferric oxide (Fe2O3), which lends the powder its characteristic pink color."
+  },
+  {
+    "id": 44,
+    "question": "Which among the following statement is false with respect to NaCl Injection I P",
+    "options": [
+      "Contains 0.9% w/v sterile solution of Sodium Chloride",
+      "pH of the solution is between 4.5 & 7.0",
+      "Contains added antimicrobial agents or preservatives",
+      "Contains approximately 150 mmol of Sodium ions"
+    ],
+    "correct_answer": "Contains added antimicrobial agents or preservatives",
+    "explanation": "Intravenous normal saline infusions must be preservative-free to avoid systemic chemical toxicity when large volumes are administered."
+  },
+  {
+    "id": 45,
+    "question": "Which one of the following is used as an antimicrobial preservative:",
+    "options": ["Propylene glycol", "Procaine hydrochloride", "Propyl hydroxy benzoate", "Sodium hydrogen carbonate"],
+    "correct_answer": "Propyl hydroxy benzoate",
+    "explanation": "Propyl hydroxy benzoate (Propylparaben) is commonly utilized as an antimicrobial preservative across pharmaceuticals, cosmetics, and food products."
+  },
+  {
+    "id": 46,
+    "question": "Cotrimoxazole tablet contains:",
+    "options": [
+      "5 parts of Cortisone acetate and 1 parts of trimethoprim",
+      "5 parts of Sulphamethoxaole and 1 parts of trimethoprim",
+      "5 parts of Sulphasalazine and 1 parts of trimethoprim",
+      "5 parts of Cloxacillin and 1 parts of trimethoprim"
+    ],
+    "correct_answer": "5 parts of Sulphamethoxaole and 1 parts of trimethoprim",
+    "explanation": "Cotrimoxazole is a synergistic fixed-dose combination combining Sulphamethoxazole and Trimethoprim in a strict 5:1 fixed structural ratio."
+  },
+  {
+    "id": 47,
+    "question": "Which among the following is used as a diuretic:",
+    "options": ["Tribulus terrestris", "Claviceps purpurea", "Cyamopsis tetragonolobus", "Commiphora molmol"],
+    "correct_answer": "Tribulus terrestris",
+    "explanation": "Tribulus terrestris (Gokhru) is well established in traditional medicine systems as a natural diuretic and urinary tract support herb."
+  },
+  {
+    "id": 48,
+    "question": "Potassium permanganate is an example for:",
+    "options": ["acidifying agent", "alkalising agent", "reducing agent", "oxidising agent"],
+    "correct_answer": "oxidising agent",
+    "explanation": "Potassium permanganate (KMnO4) is a highly powerful oxidizing chemical agent widely deployed topically for its antimicrobial and astringent actions."
+  },
+  {
+    "id": 49,
+    "question": "Lugols Solution is:",
+    "options": [
+      "2.5%w/v of Iodine and 2.5% w/v of potassium iodide in water",
+      "10.0%w/v of Iodine and 6.0% w/v pf potassium iodide in water",
+      "5.0%w/v of Iodine and 10.0% w/v of potassium iodide in water",
+      "2.0% w/v of Iodine and 2.4 % w/v of Sodium iodide in water"
+    ],
+    "correct_answer": "5.0%w/v of Iodine and 10.0% w/v of potassium iodide in water",
+    "explanation": "Lugol's iodine solution is an aqueous pharmaceutical solution containing 5% w/v elemental iodine complexed with 10% w/v potassium iodide."
+  },
+  {
+    "id": 50,
+    "question": "Ammonium Chloride is used as:",
+    "options": ["Alkalising agent", "Astringent", "Expectorant", "All the above"],
+    "correct_answer": "Expectorant",
+    "explanation": "Ammonium chloride acts as a reflex expectorant by irritating the gastric mucosa, which reflexively stimulates respiratory tract fluid secretion."
+  },
+  {
+    "id": 51,
+    "question": "An antidote which can be used in cyanide poisoning:",
+    "options": ["Sodium bicarbonate", "Sodium nitrite", "Dimercaprol", "Sodium bi sulphite"],
+    "correct_answer": "Sodium nitrite",
+    "explanation": "Sodium nitrite is administered to convert hemoglobin into methemoglobin, which binds securely with cyanide ions to shield cytochrome oxidase enzymes."
+  },
+  {
+    "id": 52,
+    "question": "Colloidal dispersion of liquids or solids in gases are:",
+    "options": ["Aerosols", "Emulsion", "Creams", "Suspensions"],
+    "correct_answer": "Aerosols",
+    "explanation": "An aerosol is defined structurally as a colloidal system in which liquid droplets or fine solid particles are suspended uniformly within a gaseous medium."
+  },
+  {
+    "id": 53,
+    "question": "An example for a drug with anti-hypertensive action",
+    "options": ["Rhubarb", "Vasaka", "Liquorice", "Rauwolfia"],
+    "correct_answer": "Rauwolfia",
+    "explanation": "Rauwolfia (Rauvolfia serpentina) contains reserpine, an alkaloid that depletes vesicular monoamines, producing strong antihypertensive properties."
+  },
+  {
+    "id": 54,
+    "question": "Restricted licences in Forms 20-A and 21-A are issued for:",
+    "options": [
+      "Narcotic and Psychotropic substances",
+      "Pethidine and related drugs",
+      "wholesale dealing of drugs which does not require the supervision of a registered pharmacist",
+      "drugs specified in Schedule X"
+    ],
+    "correct_answer": "wholesale dealing of drugs which does not require the supervision of a registered pharmacist",
+    "explanation": "Forms 20-A and 21-A represent restricted licenses granted for retail or wholesale distributions that bypass full-time registered pharmacist mandates."
+  },
+  {
+    "id": 55,
+    "question": "The Schedule in Drugs and Cosmetics Act which specifies that drugs shall not be sold by retail except on and in accordance with the prescription of a Registered Medical Practitioner:",
+    "options": ["Schedule K", "Schedule G", "Schedule J", "Schedule H"],
+    "correct_answer": "Schedule H",
+    "explanation": "Schedule H handles prescription-only compounds requiring structured handling under authorized Medical practitioner guidance."
+  },
+  {
+    "id": 56,
+    "question": "As per Drugs and Cosmetics Act 1945, the term 'Drugstore' refers to",
+    "options": [
+      "Licenses where the service of registered pharmacist is employed but donot maintain a pharmacy",
+      "Licenses who employ the service of registered pharmacist and maintain a pharmacy for compounding against prescription",
+      "Licenses where drugs are temporarily stored",
+      "Licenses where service of a qualified person is not required"
+    ],
+    "correct_answer": "Licenses where service of a qualified person is not required",
+    "explanation": "Historically, under the Act's definitions, a 'Drugstore' handles pre-packaged pharmaceuticals and does not strictly demand an active pharmacist setup for compound mixes."
+  },
+  {
+    "id": 57,
+    "question": "Which among the following is a prodrug:",
+    "options": ["Levodopa", "Indomethacin", "Paracetamol", "Diphenhydramine"],
+    "correct_answer": "Levodopa",
+    "explanation": "Levodopa is an inactive precursor that crosses the blood-brain barrier and undergoes enzymatic conversion into active dopamine via DOPA decarboxylase."
+  },
+  {
+    "id": 58,
+    "question": "Leucovorin rescue is given to reduce the toxic effects of",
+    "options": ["Methotrexate", "Cyclophosphamide", "Melphalan", "Chlorambucil"],
+    "correct_answer": "Methotrexate",
+    "explanation": "Leucovorin (folinic acid) acts as a rescue therapy by bypassing dihydrofolate reductase inhibition, preserving healthy cells from Methotrexate toxicity."
+  },
+  {
+    "id": 59,
+    "question": "The antibiotic that acts by inhibiting bacterial protein synthesis by binding to the 30s ribosomal subunits:",
+    "options": ["Chloramphenicol", "Doxycyclin", "Azithromycin", "Vancomycin"],
+    "correct_answer": "Doxycyclin",
+    "explanation": "Doxycycline is a tetracyclic antibiotic that targets the bacterial 30S ribosomal unit, blocking aminoacyl-tRNA attachment to stop protein chains."
+  },
+  {
+    "id": 60,
+    "question": "Diethyl carbamazine is the drug of choice in the treatment of:",
+    "options": ["Epilepsy", "Filarial infection", "Hookworm infestation", "Malaria"],
+    "correct_answer": "Filarial infection",
+    "explanation": "Diethylcarbamazine (DEC) serves as the primary standard anti-helminthic therapeutic weapon for treating lymphatic filariasis."
+  },
+  {
+    "id": 61,
+    "question": "Organophosphorous poisoning is treated with",
+    "options": ["Acetylcholine", "Atropine", "Pentazocine", "Methacholine"],
+    "correct_answer": "Atropine",
+    "explanation": "Atropine is a powerful competitive muscarinic antagonist used to counteract toxic life-threatening cholinergic excesses seen in organophosphate exposures."
+  },
+  {
+    "id": 62,
+    "question": "Benzodiazepine receptor antagonist:",
+    "options": ["Flumazenil", "Atropine", "Pentazocine", "Phentolamine"],
+    "correct_answer": "Flumazenil",
+    "explanation": "Flumazenil is a specific competitive antagonist at the benzodiazepine binding site on the GABA-A receptor complex, reversing sedation or overdoses."
+  },
+  {
+    "id": 63,
+    "question": "Diabetes insipidus is due to deficiency of :",
+    "options": ["Oxytocin", "Insulin", "Vasopressin", "Aldosterone"],
+    "correct_answer": "Vasopressin",
+    "explanation": "Central diabetes insipidus results directly from insufficient secretion or production of Vasopressin (Antidiuretic Hormone / ADH)."
+  },
+  {
+    "id": 64,
+    "question": "Epsom Salt is",
+    "options": ["Copper Sulphate", "Magnesium Sulphate", "Ferrous Sulphate", "Calcium Sulphate"],
+    "correct_answer": "Magnesium Sulphate",
+    "explanation": "Epsom salt is the common name designated for magnesium sulphate heptahydrate (MgSO4 ¡¤ 7H2O)."
+  },
+  {
+    "id": 65,
+    "question": "In combination antacids, Magnesium salts are added:",
+    "options": [
+      "for immediate onset of action",
+      "to decrease the production of acid in GIT",
+      "to enhance taste and appearance",
+      "for laxative action"
+    ],
+    "correct_answer": "for laxative action",
+    "explanation": "Magnesium antacids have laxative actions that effectively balance the constipating tendencies of aluminum or calcium antacids when paired together."
+  },
+  {
+    "id": 66,
+    "question": "Directly observed treatment, Short course (DOTS) refers to:",
+    "options": [
+      "AIDS control strategy of Govt of India",
+      "Strategic action plan for Malarial control in India",
+      "Tuberculosis control strategy, recommended by WHO",
+      "part of National Filaria control program"
+    ],
+    "correct_answer": "Tuberculosis control strategy, recommended by WHO",
+    "explanation": "DOTS is the globally recognized foundational public health platform recommended by WHO to ensure compliance and track tuberculosis eradication steps."
+  },
+  {
+    "id": 67,
+    "question": "An Adverse effect of Clozapine",
+    "options": ["Agranulocytosis", "Nephrotoxicity", "Hepatotoxicity", "Respiratory depression"],
+    "correct_answer": "Agranulocytosis",
+    "explanation": "Clozapine can induce dangerous bone marrow suppression leading to severe agranulocytosis, requiring intensive regular white blood cell count monitoring."
+  },
+  {
+    "id": 68,
+    "question": "Antixerophthalmic vitamin is",
+    "options": ["Vitamin E", "Vitamin D", "Vitamin B", "Vitamin A"],
+    "correct_answer": "Vitamin A",
+    "explanation": "Vitamin A is widely designated as the antixerophthalmic factor due to its essential clinical role in preventing dry eye conditions and night blindness."
+  },
+  {
+    "id": 69,
+    "question": "Lanolin is",
+    "options": ["Beeswax", "Woolfat", "Paraffin wax", "Borax"],
+    "correct_answer": "Woolfat",
+    "explanation": "Lanolin is the purified, fat-like substance obtained from the wool of sheep (Ovis aries), widely applied as an emollient base."
+  },
+  {
+    "id": 70,
+    "question": "Ratio of oil:water:gum for preparing an emulsion using volatile oil:",
+    "options": ["2:2:1", "4:2:1", "3:2:1", "1:1:2"],
+    "correct_answer": "2:2:1",
+    "explanation": "For manufacturing stable primary emulsions, fixed oils follow a 4:2:1 ratio, while volatile oils demand a specific 2:2:1 ratio."
+  },
+  {
+    "id": 71,
+    "question": "Pyridoxine is",
+    "options": ["Vitamin B 1", "Vitamin B 2", "Vitamin B 6", "Folic acid"],
+    "correct_answer": "Vitamin B 6",
+    "explanation": "Pyridoxine is the biochemical descriptive title assigned within water-soluble vitamin groups to Vitamin B6."
+  },
+  {
+    "id": 72,
+    "question": "The latin term 'Oris' denotes",
+    "options": ["to mouth", "Ever hour", "when necessary", "at bed time"],
+    "correct_answer": "to mouth",
+    "explanation": "The Latin term 'os, oris' means mouth; in prescription nomenclature, it dictates routes targeting mouth tissue locations."
+  },
+  {
+    "id": 73,
+    "question": "Carbonic anhydrase inhibitor",
+    "options": ["Ethacrynic acid", "Chlorothiazide", "Acetazolamide", "Chlorothiazide"],
+    "correct_answer": "Acetazolamide",
+    "explanation": "Acetazolamide blocks carbonic anhydrase enzymes in proximal tubules, decreasing bicarbonate recovery and causing mild alkaline diuresis."
+  },
+  {
+    "id": 74,
+    "question": "Which one among the following has a phenanthrene nucleus:",
+    "options": ["Pentazocine", "Trifluperazine", "Promethazine", "Morphine"],
+    "correct_answer": "Morphine",
+    "explanation": "Morphine consists structurally of a complex, distinct fused rings system featuring a partially hydrogenated phenanthrene core."
+  },
+  {
+    "id": 75,
+    "question": "2 Acetoxy benzoic acid is:",
+    "options": ["Paraben", "Aspirin", "PABA", "Benzocaine"],
+    "correct_answer": "Aspirin",
+    "explanation": "Acetylsalicylic acid, widely known across commercial spaces as Aspirin, is chemically indexed as 2-acetoxybenzoic acid."
+  },
+  {
+    "id": 76,
+    "question": "An agent used to delay the renal excretion of penicillins",
+    "options": ["Protamine sulphate", "Procaine", "Propylene glycol", "Probenecid"],
+    "correct_answer": "Probenecid",
+    "explanation": "Probenecid competitively inhibits renal organic anion transporters, lowering the secretion clearance of Penicillin to prolong its plasma life."
+  },
+  {
+    "id": 77,
+    "question": "An antidote for warfarin toxicity/overdose",
+    "options": ["Protamine", "Dimercaprol", "Penicillamine", "Vitamin K"],
+    "correct_answer": "Vitamin K",
+    "explanation": "Warfarin works by inhibiting Vitamin K epoxide reductase; administering therapeutic Vitamin K overrides this blocks to restore clotting factor synthesis."
+  },
+  {
+    "id": 78,
+    "question": "An ingredient of anticoagulant solution used for storage of whole blood",
+    "options": ["Anhydrous citric acid", "Anhydrous benzoic acid", "Anhydrous Tartaric acid", "Ascorbic acid"],
+    "correct_answer": "Anhydrous citric acid",
+    "explanation": "Citric acid formulations (e.g., ACD/CPD bags) act as vital anticoagulants for whole blood storage by chelating free calcium ions."
+  },
+  {
+    "id": 79,
+    "question": "Valproic acid is used as an",
+    "options": ["Analgesic", "Antiepileptic", "Anti-inflammatory", "Diuretic"],
+    "correct_answer": "Antiepileptic",
+    "explanation": "Valproic acid blocks voltage-gated sodium channels and elevates GABA concentrations, making it a versatile broad-spectrum antiepileptic."
+  },
+  {
+    "id": 80,
+    "question": "All the following General anaesthetics are administered intravenously except:",
+    "options": ["Ketamine", "Propofol", "Halothane", "Thiopentone Sodium"],
+    "correct_answer": "Halothane",
+    "explanation": "Halothane is a volatile halogenated hydrocarbon fluid administered exclusively via inhalation vaporizers into respiratory loops."
+  },
+  {
+    "id": 81,
+    "question": "Clavulanic acid is given along with amoxycillin to",
+    "options": ["decrease excretion", "avoid first pass metabolism", "prevent drug resistance", "enhance oral absorption"],
+    "correct_answer": "prevent drug resistance",
+    "explanation": "Clavulanic acid acts as a suicide inhibitor of beta-lactamase enzymes, safeguarding Amoxicillin from degradation and overcoming resistance pathways."
+  },
+  {
+    "id": 82,
+    "question": "Carbidopa is used for the treatment of parkinsonism because it",
+    "options": ["crosses blood brain barrier", "decrease monoamine oxidase", "inhibits L aminoacid decarboxylase", "a COMT inhibitor"],
+    "correct_answer": "inhibits L aminoacid decarboxylase",
+    "explanation": "Carbidopa is a peripheral aromatic L-amino acid decarboxylase inhibitor that does not cross the BBB, preventing peripheral conversion of Levodopa."
+  },
+  {
+    "id": 83,
+    "question": "Aldosterone antagonist",
+    "options": ["Spironolactone", "Amiloride", "Mannitol", "Acetazolamide"],
+    "correct_answer": "Spironolactone",
+    "explanation": "Spironolactone competitively blocks mineralocorticoid receptors, preventing aldosterone-driven sodium-potassium transport changes."
+  },
+  {
+    "id": 84,
+    "question": "Antimalarial drug used in Rheumatoid arrthritis",
+    "options": ["Mepacrine", "Chloroquine", "Artemisine", "Pamaquine"],
+    "correct_answer": "Chloroquine",
+    "explanation": "Chloroquine (and hydroxychloroquine) possesses lysosomotropic and immunomodulatory properties that make it an effective DMARD for rheumatoid arthritis."
+  },
+  {
+    "id": 85,
+    "question": "Selenium Sulfide is used as",
+    "options": ["Antimalarial", "Antileprotic", "Antifungal", "Antidandruff"],
+    "correct_answer": "Antidandruff",
+    "explanation": "Selenium sulfide reduces epidermal hyper-proliferation and clears Malassezia species, making it a standard ingredient in antidandruff shampoos."
+  },
+  {
+    "id": 86,
+    "question": "The process of loosing water of crystallisation from a substance is",
+    "options": ["Exudation", "Efflorescence", "Delequescence", "Diaphoretic"],
+    "correct_answer": "Efflorescence",
+    "explanation": "Efflorescence occurs when a hydrated crystalline substance loses its water of crystallization to the surrounding dry atmosphere."
+  },
+  {
+    "id": 87,
+    "question": "Plantago ovata is used as",
+    "options": ["Expectorant", "Sweetening agent", "Analgesic", "Laxative"],
+    "correct_answer": "Laxative",
+    "explanation": "Plantago ovata (Isabgol) seeds and husks contain mucilage that absorbs water in the gut, working as a bulk-forming laxative."
+  },
+  {
+    "id": 88,
+    "question": "Sucrose is a",
+    "options": ["Hexose", "Monosaccharides", "Disaccharides", "Polysaccharides"],
+    "correct_answer": "Disaccharides",
+    "explanation": "Sucrose is a disaccharide carbohydrate composed of glucose and fructose monosaccharide units joined by an alpha-1,2-glycosidic bond."
+  },
+  {
+    "id": 89,
+    "question": "An antidiabetic plant drug:",
+    "options": ["Withania somnifera", "Saraca indica", "Urginea maritima", "Gymnema sylvestre"],
+    "correct_answer": "Gymnema sylvestre",
+    "explanation": "Gymnema sylvestre (Gurmar) contains gymnemic acids that interact with sweetness and glucose absorption profiles, working as a natural antidiabetic."
+  },
+  {
+    "id": 90,
+    "question": "A tropane alkaloid:",
+    "options": ["Atropine", "Reserpine", "Ergometrine", "Diosgenin"],
+    "correct_answer": "Atropine",
+    "explanation": "Atropine is a classic tropane alkaloid derived from Solanaceae species such as Atropa belladonna."
+  },
+  {
+    "id": 91,
+    "question": "Which one of the following is referred to as Good Cholesterol:",
+    "options": ["Triglycerides", "High density Lipoproteins", "Low density Lipoproteins", "Chylomicrons"],
+    "correct_answer": "High density Lipoproteins",
+    "explanation": "High-Density Lipoprotein (HDL) is known as 'good cholesterol' because it promotes reverse cholesterol transport, removing lipids from vessels."
+  },
+  {
+    "id": 92,
+    "question": "Which part of the plant 'Opium poppy' is used for obtaining the active principles:",
+    "options": ["dried latex from stem", "dried latex from capsules", "dried latex from root", "dried latex from shoots"],
+    "correct_answer": "dried latex from capsules",
+    "explanation": "Opium and its alkaloids (morphine, codeine) are obtained by incising the unripe, scoring seed capsules of Papaver somniferum to harvest dried latex."
+  },
+  {
+    "id": 93,
+    "question": "Proton pump inhibitor used in the treatment of peptic ulcer",
+    "options": ["Rabeprazole", "Ranitidine", "Misoprostol", "Sucralfate"],
+    "correct_answer": "Rabeprazole",
+    "explanation": "Rabeprazole is a proton pump inhibitor (PPI) that covalently binds to the H+/K+-ATPase pump system inside gastric parietal cells, blocking acid secretion."
+  },
+  {
+    "id": 94,
+    "question": "An example for a drug that induces cytochrome P450:",
+    "options": ["Phenytoin", "Omeprazole", "Allopurinol", "Chloramphenicol"],
+    "correct_answer": "Phenytoin",
+    "explanation": "Phenytoin is a well-established hepatic microsomal enzyme inducer that accelerates the metabolic breakdown of co-administered drugs."
+  },
+  {
+    "id": 95,
+    "question": "Physostigmine is an example for",
+    "options": ["Adrenergic durg", "Anticholinergic drug", "Adrenergic blocking drug", "Anticholinesterase"],
+    "correct_answer": "Anticholinesterase",
+    "explanation": "Physostigmine is a reversible anticholinesterase agent that blocks acetylcholinesterase, prolonging the lifespan of acetylcholine in synaptic spaces."
+  },
+  {
+    "id": 96,
+    "question": "A Non Steroidal Anti Inflammatory Drug derived from anthranilic acid:",
+    "options": ["Mephenemic acid", "Ibuprofen", "Indomethacin", "Diclofenac Sodium"],
+    "correct_answer": "Mephenemic acid",
+    "explanation": "Mefenamic acid belongs structurally to the fenamate chemical family, which are derivatives of anthranilic acid."
+  },
+  {
+    "id": 97,
+    "question": "A hormone secreted by the anterior lobe of pituitary gland:",
+    "options": ["Mineralocorticoids", "Gonadotropin releasing hormone", "Growth hormone", "Thyrotropin releasing hormone"],
+    "correct_answer": "Growth hormone",
+    "explanation": "Growth Hormone (somatotropin) is synthesized and released by somatotroph cells in the anterior pituitary gland."
+  },
+  {
+    "id": 98,
+    "question": "An drug which inhibits spermatogenesis, used as male contraceptive",
+    "options": ["Tamoxifen", "Norethindrone", "Levonorgestrel", "Gossypol"],
+    "correct_answer": "Gossypol",
+    "explanation": "Gossypol is a natural polyphenolic compound isolated from cotton plants that acts as a male contraceptive by suppressing spermatogenesis."
+  },
+  {
+    "id": 99,
+    "question": "An Angiotensin antagonist:",
+    "options": ["Captopril", "Losartan", "Verapamil", "Nicorandil"],
+    "correct_answer": "Losartan",
+    "explanation": "Losartan is an Angiotensin II receptor blocker (ARB) that blocks the AT1 receptor subtype, whereas Captopril is an ACE inhibitor."
+  },
+  {
+    "id": 100,
+    "question": "Lovastatin is",
+    "options": ["Antifibrinolytic agent", "H2 receptor antagonist", "HMG Co-A reductase inhibitor", "Lipoprotein lipase activator"],
+    "correct_answer": "HMG Co-A reductase inhibitor",
+    "explanation": "Lovastatin is a statin that competitively blocks HMG-CoA reductase, the rate-limiting enzyme in hepatic cholesterol synthesis pathways."
+  }
+]
