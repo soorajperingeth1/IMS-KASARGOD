@@ -1,712 +1,1202 @@
 [
   {
+    "id": "kpsc_q1",
     "question": "Sterilization by dry heat is effected usually by heating at :",
     "options": [
-      "(A) 100°C for 1 hour",
-      "(B) 121°C for 20 minutes",
-      "(C) 160°C for 2 hour",
-      "(D) 200°C for 20 minutes"
+      "100°C for 1 hour",
+      "121°C for 20 minutes",
+      "160°C for 2 hour",
+      "200°C for 20 minutes"
     ],
-    "correct_answer": "(C) 160°C for 2 hour"
+    "correct_answer": "160°C for 2 hour",
+    "explanation": "Dry heat sterilization in a hot air oven typically requires a temperature of 160°C for a holding time of 2 hours to effectively destroy bacterial spores."
   },
   {
+    "id": "kpsc_q2",
     "question": "Microorganisms that are very resistant to heat treatments are said to be :",
     "options": [
-      "(A) thermophilic",
-      "(B) mesophilic",
-      "(C) psychrotropic",
-      "(D) thermoduric"
+      "thermophilic",
+      "mesophilic",
+      "psychrotropic",
+      "thermoduric"
     ],
-    "correct_answer": "(D) thermoduric"
+    "correct_answer": "thermoduric",
+    "explanation": "Thermoduric microorganisms are organisms that can survive high-temperature heat treatments, such as pasteurization, even though they do not grow optimally at those temperatures."
   },
   {
+    "id": "kpsc_q3",
     "question": "Which among the following is not an example of bacteria proof filter?",
     "options": [
-      "(A) Filter candle",
-      "(B) Meta filter",
-      "(C) Millipore filter",
-      "(D) Sintered metal filter"
+      "Filter candle",
+      "Meta filter",
+      "Millipore filter",
+      "Sintered metal filter"
     ],
-    "correct_answer": "(B) Meta filter"
+    "correct_answer": "Meta filter",
+    "explanation": "Meta filters are primarily used for clarification rather than absolute bacterial filtration, whereas filter candles, millipore filters, and sintered filters can achieve bacterial retention."
   },
   {
+    "id": "kpsc_q4",
     "question": "Method of incorporation of disintegrants in tablets is :",
     "options": [
-      "(A) before granulation",
-      "(B) after granulation",
-      "(C) in parts before and after granulation",
-      "(D) with coating solution"
+      "before granulation",
+      "after granulation",
+      "in parts before and after granulation",
+      "with coating solution"
     ],
-    "correct_answer": "(C) in parts before and after granulation"
+    "correct_answer": "in parts before and after granulation",
+    "explanation": "Incorporating disintegrants both intragranularly (before granulation) and extragranularly (after granulation) ensures comprehensive disintegration of the tablet matrix into granules, and then granules into fine particles."
   },
   {
+    "id": "kpsc_q5",
     "question": "Melting point of materials influence which tablet defect?",
     "options": [
-      "(A) picking",
-      "(B) lamination",
-      "(C) chipping",
-      "(D) capping"
+      "picking",
+      "lamination",
+      "chipping",
+      "capping"
     ],
-    "correct_answer": "(A) picking"
+    "correct_answer": "picking",
+    "explanation": "Materials with low melting points can become soft or sticky due to frictional heat generated during compression, leading to adherence to the punch faces—a defect known as picking."
   },
   {
+    "id": "kpsc_q6",
     "question": "Capacity of the cylindrical vessel present in tablet dissolution test apparatus is usually :",
     "options": [
-      "(A) 1 litre",
-      "(B) 100 ml",
-      "(C) 500 ml",
-      "(D) 750 ml"
+      "1 litre",
+      "100 ml",
+      "500 ml",
+      "750 ml"
     ],
-    "correct_answer": "(A) 1 litre"
+    "correct_answer": "1 litre",
+    "explanation": "Standard compendial dissolution testing apparatuses (such as USP Paddle or Basket) feature a cylindrical vessel with a nominal capacity of 1000 mL (1 litre)."
   },
   {
+    "id": "kpsc_q7",
     "question": "Coacervation phase separation is a method used for which process?",
     "options": [
-      "(A) Tablet coating",
-      "(B) Microencapsulation",
-      "(C) Sterilization",
-      "(D) All of the above"
+      "Tablet coating",
+      "Microencapsulation",
+      "Sterilization",
+      "All of the above"
     ],
-    "correct_answer": "(B) Microencapsulation"
+    "correct_answer": "Microencapsulation",
+    "explanation": "Coacervation-phase separation is a classical core-shell deposition technique extensively utilized to produce microcapsules."
   },
   {
+    "id": "kpsc_q8",
     "question": "Which source of sterilization is produced by passing of a high voltage through mercury vapor in evacuated glass tube?",
     "options": [
-      "(A) X rays",
-      "(B) Beta rays",
-      "(C) Gamma rays",
-      "(D) UV rays"
+      "X rays",
+      "Beta rays",
+      "Gamma rays",
+      "UV rays"
     ],
-    "correct_answer": "(D) UV rays"
+    "correct_answer": "UV rays",
+    "explanation": "Mercury vapor lamps generate Ultraviolet (UV) radiation when an electrical discharge passes through localized low-pressure mercury vapor."
   },
   {
+    "id": "kpsc_q9",
     "question": "Preservatives used in the formulation of capsule shell of hard gelatin capsule :",
     "options": [
-      "(A) glycerin",
-      "(B) sorbitol",
-      "(C) paraben",
-      "(D) vanillin"
+      "glycerin",
+      "sorbitol",
+      "paraben",
+      "vanillin"
     ],
-    "correct_answer": "(C) paraben"
+    "correct_answer": "paraben",
+    "explanation": "Parabens (like methyl and propyl paraben) are added to gelatin formulations as preservatives to prevent microbial growth during manufacturing and storage."
   },
   {
+    "id": "kpsc_q10",
     "question": "The moisture content of hard gelatin capsule shell is usually :",
     "options": [
-      "(A) 10 to 15%",
-      "(B) less than 1%",
-      "(C) zero",
-      "(D) none of the above"
+      "10 to 15%",
+      "less than 1%",
+      "zero",
+      "none of the above"
     ],
-    "correct_answer": "(A) 10 to 15%"
+    "correct_answer": "10 to 15%",
+    "explanation": "Hard gelatin capsule shells inherently contain about 13-16% (commonly generalized as 10-15%) moisture to maintain structural flexibility and prevent brittleness."
   },
   {
+    "id": "kpsc_q11",
     "question": "In the formulation of a suspension electrolytes are used commonly as :",
     "options": [
-      "(A) flocculating agent",
-      "(B) suspending agent",
-      "(C) wetting agent",
-      "(D) preservative"
+      "flocculating agent",
+      "suspending agent",
+      "wetting agent",
+      "preservative"
     ],
-    "correct_answer": "(A) flocculating agent"
+    "correct_answer": "flocculating agent",
+    "explanation": "Electrolytes reduce the electrical zeta potential of suspended particles, allowing them to aggregate into loose, easily dispersible structures called flocs."
   },
   {
+    "id": "kpsc_q12",
     "question": "Which of the following solids does not require a suspending agent when formulated into a suspension?",
     "options": [
-      "(A) aspirin",
-      "(B) chalk",
-      "(C) light kaolin",
-      "(D) resins"
+      "aspirin",
+      "chalk",
+      "light kaolin",
+      "resins"
     ],
-    "correct_answer": "(C) light kaolin"
+    "correct_answer": "light kaolin",
+    "explanation": "Light kaolin is an easily wettable, diffusible solid that disperses readily in water and remains suspended long enough for an accurate dose to be poured without a structural suspending agent."
   },
   {
+    "id": "kpsc_q13",
     "question": "Surfactants with HLB value between 3 and 6 favor the formation of which type of emulsion?",
     "options": [
-      "(A) o/w",
-      "(B) w/o",
-      "(C) both o/w and w/o",
-      "(D) none of the above"
+      "o/w",
+      "w/o",
+      "both o/w and w/o",
+      "none of the above"
     ],
-    "correct_answer": "(B) w/o"
+    "correct_answer": "w/o",
+    "explanation": "Surfactants with a low Hydrophilic-Lipophilic Balance (HLB) value of 3 to 6 are predominantly hydrophobic and are utilized as emulsifiers for water-in-oil (w/o) emulsions."
   },
   {
+    "id": "kpsc_q14",
     "question": "Optimum phase volume ratio for obtaining a stable emulsion is :",
     "options": [
-      "(A) below 25%",
-      "(B) above 75%",
-      "(C) between 90 – 100%",
-      "(D) between 30 – 60%"
+      "below 25%",
+      "above 75%",
+      "between 90 – 100%",
+      "between 30 – 60%"
     ],
-    "correct_answer": "(D) between 30 – 60%"
+    "correct_answer": "between 30 – 60%",
+    "explanation": "Stable emulsions generally feature a dispersed internal phase volume ratio between 30% and 60%. If the phase volume exceeds 74%, phase inversion or coalescence typically occurs."
   },
   {
+    "id": "kpsc_q15",
     "question": "Sodium alkyl sulfosuccinate is used for which purpose in a dentifrice?",
     "options": [
-      "(A) therapeutic agent",
-      "(B) detergent",
-      "(C) binder",
-      "(D) abrasive"
+      "therapeutic agent",
+      "detergent",
+      "binder",
+      "abrasive"
     ],
-    "correct_answer": "(B) detergent"
+    "correct_answer": "detergent",
+    "explanation": "Sodium alkyl sulfosuccinate functions as a surface-active agent or foaming detergent to assist in debris removal within dentifrice formulations."
   },
   {
+    "id": "kpsc_q16",
     "question": "Which among the following is a permanent hair removal method for body hair?",
     "options": [
-      "(A) electrolysis",
-      "(B) chemical peeling",
-      "(C) depilation",
-      "(D) epilation"
+      "electrolysis",
+      "chemical peeling",
+      "depilation",
+      "epilation"
     ],
-    "correct_answer": "(A) electrolysis"
+    "correct_answer": "electrolysis",
+    "explanation": "Electrolysis utilizes electrical current to destroy the hair growth center at the root, rendering it the primary recognized permanent method for hair removal."
   },
   {
+    "id": "kpsc_q17",
     "question": "Coulter counter is used for which evaluation test for parenteral preparation?",
     "options": [
-      "(A) BET test",
-      "(B) Sterility test",
-      "(C) Leakage test",
-      "(D) Clarity test"
+      "BET test",
+      "Sterility test",
+      "Leakage test",
+      "Clarity test"
     ],
-    "correct_answer": "(D) Clarity test"
+    "correct_answer": "Clarity test",
+    "explanation": "A Coulter counter automatically counts and determines the size distribution of particulate matter, making it an essential instrument for the quantitative clarity testing of injections."
   },
   {
+    "id": "kpsc_q18",
     "question": "Which is not preferred as a vehicle among the following for the formulation of parenterals?",
     "options": [
-      "(A) liquid paraffin",
-      "(B) alcohol",
-      "(C) cottonseed oil",
-      "(D) glycerin"
+      "liquid paraffin",
+      "alcohol",
+      "cottonseed oil",
+      "glycerin"
     ],
-    "correct_answer": "(A) liquid paraffin"
+    "correct_answer": "liquid paraffin",
+    "explanation": "Liquid paraffin cannot be metabolized by the body and can cause tissue foreign-body reactions (paraffinomas), making it strictly avoided as an injectable vehicle."
   },
   {
+    "id": "kpsc_q19",
     "question": "A popular vehicle which is isotonic with lachrymal fluid?",
     "options": [
-      "(A) water",
-      "(B) 0.09% saline",
-      "(C) 1.9% boric acid",
-      "(D) 0.9% barium chloride"
+      "water",
+      "0.09% saline",
+      "1.9% boric acid",
+      "0.9% barium chloride"
     ],
-    "correct_answer": "(C) 1.9% boric acid"
+    "correct_answer": "1.9% boric acid",
+    "explanation": "A 1.9% w/v aqueous solution of boric acid is practically isotonic with lachrymal secretions and is frequently utilized as an ophthalmic vehicle."
   },
   {
+    "id": "kpsc_q20",
     "question": "Which is an ingredient avoided in the formulation of ophthalmic ointment?",
     "options": [
-      "(A) wool fat",
-      "(B) white soft paraffin",
-      "(C) liquid paraffin",
-      "(D) all of the above"
+      "wool fat",
+      "white soft paraffin",
+      "liquid paraffin",
+      "all of the above"
     ],
-    "correct_answer": "(A) wool fat"
+    "correct_answer": "wool fat",
+    "explanation": "Yellow ointment bases like wool fat can contain allergens or irritants and are typically restricted or avoided in highly sensitive ocular environments unless completely purified."
   },
   {
+    "id": "kpsc_q21",
     "question": "Which of the following statement regarding sodium hydroxide is correct?",
     "options": [
-      "(A) A powerful caustic",
-      "(B) Highly deliquescent",
-      "(C) Absorbs carbon dioxide from air",
-      "(D) All of the above"
+      "A powerful caustic",
+      "Highly deliquescent",
+      "Absorbs carbon dioxide from air",
+      "All of the above"
     ],
-    "correct_answer": "(D) All of the above"
+    "correct_answer": "All of the above",
+    "explanation": "Sodium hydroxide ($\text{NaOH}$) is strongly corrosive (caustic), actively absorbs ambient moisture until it dissolves (deliquescent), and captures atmospheric $\text{CO}_2$ to form sodium carbonate."
   },
   {
+    "id": "kpsc_q22",
     "question": "Borate buffers are contraindicated for :",
     "options": [
-      "(A) Ophthalmic solutions",
-      "(B) Parenteral solutions",
-      "(C) Nasal solutions",
-      "(D) External preparations"
+      "Ophthalmic solutions",
+      "Parenteral solutions",
+      "Nasal solutions",
+      "External preparations"
     ],
-    "correct_answer": "(B) Parenteral solutions"
+    "correct_answer": "Parenteral solutions",
+    "explanation": "Borate ions display systemic toxicity and interact negatively with blood components, strictly contraindicating their use in injections."
   },
   {
+    "id": "kpsc_q23",
     "question": "The official solution of Hydrogen Peroxide in the I.P. is :",
     "options": [
-      "(A) solution containing 6% w/v of Hydrogen peroxide",
-      "(B) solution containing 3% w/v of Hydrogen peroxide",
-      "(C) solution containing 27% w/v of Hydrogen peroxide",
-      "(D) solution containing 30% w/v of Hydrogen peroxide"
+      "solution containing 6% w/v of Hydrogen peroxide",
+      "solution containing 3% w/v of Hydrogen peroxide",
+      "solution containing 27% w/v of Hydrogen peroxide",
+      "solution containing 30% w/v of Hydrogen peroxide"
     ],
-    "correct_answer": "(A) solution containing 6% w/v of Hydrogen peroxide"
+    "correct_answer": "solution containing 6% w/v of Hydrogen peroxide",
+    "explanation": "Hydrogen Peroxide Topical Solution IP is officially standard as a 20-volume solution, which correlates directly to approximately 6% w/v of $\text{H}_2\text{O}_2$."
   },
   {
+    "id": "kpsc_q24",
     "question": "Aqueous salt of Sodium Nitrite is :",
     "options": [
-      "(A) Alkaline to litmus",
-      "(B) Acidic to litmus",
-      "(C) Neutral to litmus",
-      "(D) Both acidic and alkaline to litmus"
+      "Alkaline to litmus",
+      "Acidic to litmus",
+      "Neutral to litmus",
+      "Both acidic and alkaline to litmus"
     ],
-    "correct_answer": "(A) Alkaline to litmus"
+    "correct_answer": "Alkaline to litmus",
+    "explanation": "Sodium Nitrite ($\text{NaNO}_2$) is a salt derived from a strong base ($\text{NaOH}$) and a weak acid ($\text{HNO}_2$), meaning its aqueous solutions undergo conjugate base hydrolysis to yield a basic (alkaline) pH."
   },
   {
+    "id": "kpsc_q25",
     "question": "Povidone – Iodine belongs to :",
     "options": [
-      "(A) Aqueous Iodine solution",
-      "(B) Strong Iodine solution",
-      "(C) Iodine tincture",
-      "(D) Iodophor compound"
+      "Aqueous Iodine solution",
+      "Strong Iodine solution",
+      "Iodine tincture",
+      "Iodophor compound"
     ],
-    "correct_answer": "(D) Iodophor compound"
+    "correct_answer": "Iodophor compound",
+    "explanation": "Iodophors are complexes consisting of iodine bound to a solubilizing carrier polymer like polyvinylpyrrolidone (povidone), which releases iodine slowly."
   },
   {
+    "id": "kpsc_q26",
     "question": "The chemical formula for Ammoniated Mercury is :",
     "options": [
-      "(A) NH2 HgCl",
-      "(B) NH4 HgCl",
-      "(C) NH3 HgCl",
-      "(D) NH2 HgNH2"
+      "NH2 HgCl",
+      "NH4 HgCl",
+      "NH3 HgCl",
+      "NH2 HgNH2"
     ],
-    "correct_answer": "(A) NH2 HgCl"
+    "correct_answer": "NH2 HgCl",
+    "explanation": "Ammoniated mercury, historically referred to as white precipitate, possesses the chemical formula $\text{NH}_2\text{HgCl}$."
   },
   {
+    "id": "kpsc_q27",
     "question": "Ammonium Chloride may be used as :",
     "options": [
-      "(A) Expectorant",
-      "(B) Systemic acidifier",
-      "(C) Diuretic",
-      "(D) All of the above"
+      "Expectorant",
+      "Systemic acidifier",
+      "Diuretic",
+      "All of the above"
     ],
-    "correct_answer": "(D) All of the above"
+    "correct_answer": "All of the above",
+    "explanation": "Ammonium chloride ($\text{NH}_4\text{Cl}$) functions physiologically as a systemic acidifier, an osmotic diuretic, and an irritant expectorant in cough syrups."
   },
   {
+    "id": "kpsc_q28",
     "question": "Which of the following statement about Antimony Potassium Tartrate is true?",
     "options": [
-      "(A) Its taste is sweet",
-      "(B) Its crystals effloresce when exposed to dry air",
-      "(C) It is an emetic",
-      "(D) All of the above"
+      "Its taste is sweet",
+      "Its crystals effloresce when exposed to dry air",
+      "It is an emetic",
+      "All of the above"
     ],
-    "correct_answer": "(D) All of the above"
+    "correct_answer": "All of the above",
+    "explanation": "Antimony potassium tartrate (Tartar emetic) exhibits a sweetish metallic taste, loses crystalline water in dry air (effloresces), and acts as a central/peripheral emetic."
   },
   {
+    "id": "kpsc_q29",
     "question": "Calcium Gluconate can be administered by :",
     "options": [
-      "(A) Orally",
-      "(B) Intramuscular Injection",
-      "(C) Intravenous Injection",
-      "(D) All of the above"
+      "Orally",
+      "Intramuscular Injection",
+      "Intravenous Injection",
+      "All of the above"
     ],
-    "correct_answer": "(D) All of the above"
+    "correct_answer": "All of the above",
+    "explanation": "Calcium gluconate is clinically versatile and can be taken as oral supplements or injected via intravenous and deep intramuscular pathways."
   },
   {
+    "id": "kpsc_q30",
     "question": "All of the following are also known as “Chlorinated Lime” except :",
     "options": [
-      "(A) Slaked Lime",
-      "(B) Chloride of Lime",
-      "(C) Bleaching Powder",
-      "(D) Calcium Chloro-Hypochlorite"
+      "Slaked Lime",
+      "Chloride of Lime",
+      "Bleaching Powder",
+      "Calcium Chloro-Hypochlorite"
     ],
-    "correct_answer": "(A) Slaked Lime"
+    "correct_answer": "Slaked Lime",
+    "explanation": "Slaked lime is calcium hydroxide [$\text{Ca(OH)}_2$], which contains no chlorine, unlike bleaching powder options."
   },
   {
+    "id": "kpsc_q31",
     "question": "Chemical name of Dapsone is :",
     "options": [
-      "(A) 4,4' – Dimethyl diphenyl sulfone",
-      "(B) 4,4' – Diethyl diphenyl sulfone",
-      "(C) 4,4' – Diamino diphenyl sulfone",
-      "(D) 4,4' – Diamino diphenyl sulfonamide"
+      "4,4' – Dimethyl diphenyl sulfone",
+      "4,4' – Diethyl diphenyl sulfone",
+      "4,4' – Diamino diphenyl sulfone",
+      "4,4' – Diamino diphenyl sulfonamide"
     ],
-    "correct_answer": "(C) 4,4' – Diamino diphenyl sulfone"
+    "correct_answer": "4,4' – Diamino diphenyl sulfone",
+    "explanation": "Dapsone is a principal anti-leprotic sulfone structurally recognized as 4,4'-diaminodiphenylsulfone (DDS)."
   },
   {
+    "id": "kpsc_q32",
     "question": "All of the following are Antifungal Antibiotics except :",
     "options": [
-      "(A) Griseofulvin",
-      "(B) Tolnaftate",
-      "(C) Nystatin",
-      "(D) Amphotericin"
+      "Griseofulvin",
+      "Tolnaftate",
+      "Nystatin",
+      "Amphotericin"
     ],
-    "correct_answer": "(B) Tolnaftate"
+    "correct_answer": "Tolnaftate",
+    "explanation": "Tolnaftate is a synthetic thiocarbamate antifungal compound, whereas griseofulvin, nystatin, and amphotericin are natural antibiotics produced by microorganisms."
   },
   {
+    "id": "kpsc_q33",
     "question": "Which of the following statement about proguanil is true?",
     "options": [
-      "(A) It is a dihydrofolate reductase inhibitor",
-      "(B) Its active form is cycloguanil",
-      "(C) Used for both Prophylaxis and treatment of malaria",
-      "(D) All of the above"
+      "It is a dihydrofolate reductase inhibitor",
+      "Its active form is cycloguanil",
+      "Used for both Prophylaxis and treatment of malaria",
+      "All of the above"
     ],
-    "correct_answer": "(D) All of the above"
+    "correct_answer": "All of the above",
+    "explanation": "Proguanil is a biguanide prodrug that is metabolized in vivo into cycloguanil, an active inhibitor of plasmodial dihydrofolate reductase used to treat and prevent malaria."
   },
   {
+    "id": "kpsc_q34",
     "question": "Carbenicillin is an example of :",
     "options": [
-      "(A) Natural Penicillin",
-      "(B) Penicillinase resistant Penicillin",
-      "(C) Anti-pseudomonal Penicillin",
-      "(D) Acid stable Penicillin"
+      "Natural Penicillin",
+      "Penicillinase resistant Penicillin",
+      "Anti-pseudomonal Penicillin",
+      "Acid stable Penicillin"
     ],
-    "correct_answer": "(C) Anti-pseudomonal Penicillin"
+    "correct_answer": "Anti-pseudomonal Penicillin",
+    "explanation": "Carbenicillin belongs to the carboxypenicillin sub-class, demonstrating specialized extended-spectrum activity against Gram-negative bacteria like Pseudomonas aeruginosa."
   },
   {
+    "id": "kpsc_q35",
     "question": "5-Fluorouracil is used in the treatment of :",
     "options": [
-      "(A) Breast cancer",
-      "(B) Colorectal cancer",
-      "(C) Basal cell cancer of the skin",
-      "(D) All of the above"
+      "Breast cancer",
+      "Colorectal cancer",
+      "Basal cell cancer of the skin",
+      "All of the above"
     ],
-    "correct_answer": "(D) All of the above"
+    "correct_answer": "All of the above",
+    "explanation": "5-Fluorouracil (5-FU) is a pyrimidine antagonist pyrimidine analog chemotherapy agent applied systemically for solid tumors (colorectal, breast) and topically for skin carcinomas."
   },
   {
+    "id": "kpsc_q36",
     "question": "Azathioprine is a heterocyclic derivative of :",
     "options": [
-      "(A) 5-Fluorouracil",
-      "(B) 6-Mercaptopurine",
-      "(C) Methotrexate",
-      "(D) None of the above"
+      "5-Fluorouracil",
+      "6-Mercaptopurine",
+      "Methotrexate",
+      "None of the above"
     ],
-    "correct_answer": "(B) 6-Mercaptopurine"
+    "correct_answer": "6-Mercaptopurine",
+    "explanation": "Azathioprine acts as an immunosuppressive prodrug that cleaves non-enzymatically to yield its active purine antagonist metabolite, 6-mercaptopurine."
   },
   {
+    "id": "kpsc_q37",
     "question": "Mannitol is mainly used by intravenous infusion as :",
     "options": [
-      "(A) Carbonic anhydrase inhibitor",
-      "(B) Potassium-sparing diuretic",
-      "(C) Osmotic diuretic",
-      "(D) Thiazide diuretic"
+      "Carbonic anhydrase inhibitor",
+      "Potassium-sparing diuretic",
+      "Osmotic diuretic",
+      "Thiazide diuretic"
     ],
-    "correct_answer": "(C) Osmotic diuretic"
+    "correct_answer": "Osmotic diuretic",
+    "explanation": "Mannitol is a non-metabolizable sugar molecule that filters freely through the glomerulus, exerting an osmotic force that inhibits water reabsorption in the renal tubules."
   },
   {
+    "id": "kpsc_q38",
     "question": "Which one of the following can be administered orally?",
     "options": [
-      "(A) Adrenaline",
-      "(B) Noradrenaline",
-      "(C) Isoprenaline",
-      "(D) Salbutamol"
+      "Adrenaline",
+      "Noradrenaline",
+      "Isoprenaline",
+      "Salbutamol"
     ],
-    "correct_answer": "(D) Salbutamol"
+    "correct_answer": "Salbutamol",
+    "explanation": "Catecholamines like adrenaline are degraded rapidly by intestinal enzymes and COMT, whereas salbutamol is a non-catecholamine $\beta_2$-agonist that possesses high oral bioavailability."
   },
   {
+    "id": "kpsc_q39",
     "question": "Which of the following is a monoamine oxidase inhibiting antidepressant?",
     "options": [
-      "(A) Imipramine",
-      "(B) Phenelzine",
-      "(C) Amitriptyline",
-      "(D) Nortriptyline"
+      "Imipramine",
+      "Phenelzine",
+      "Amitriptyline",
+      "Nortriptyline"
     ],
-    "correct_answer": "(B) Phenelzine"
+    "correct_answer": "Phenelzine",
+    "explanation": "Phenelzine is a classic, non-selective hydrazine Monoamine Oxidase Inhibitor (MAOI), while the alternative selections are tricyclic antidepressants (TCAs)."
   },
   {
+    "id": "kpsc_q40",
     "question": "Which of the following is NOT a benzodiazepine derivative?",
     "options": [
-      "(A) Chlordiazepoxide",
-      "(B) Diazepam",
-      "(C) Lorazepam",
-      "(D) Meprobamate"
+      "Chlordiazepoxide",
+      "Diazepam",
+      "Lorazepam",
+      "Meprobamate"
     ],
-    "correct_answer": "(D) Meprobamate"
+    "correct_answer": "Meprobamate",
+    "explanation": "Meprobamate is a carbamate derivative functioning as an anxiolytic, entirely structurally unique from the class of benzodiazepines."
   },
   {
+    "id": "kpsc_q41",
     "question": "Which among the following is an isoquinoline alkaloid?",
     "options": [
-      "(A) Quinine",
-      "(B) Emetine",
-      "(C) Ergometrine",
-      "(D) Strignine"
+      "Quinine",
+      "Emetine",
+      "Ergometrine",
+      "Strignine"
     ],
-    "correct_answer": "(B) Emetine"
+    "correct_answer": "Emetine",
+    "explanation": "Emetine, derived from Ipecacuanha, features an isoquinoline core skeleton in its chemical structure."
   },
   {
+    "id": "kpsc_q42",
     "question": "The toxic substance present in Nutmeg is :",
     "options": [
-      "(A) Safrole",
-      "(B) Euginol",
-      "(C) Myristicine",
-      "(D) Pinine"
+      "Safrole",
+      "Euginol",
+      "Myristicine",
+      "Pinine"
     ],
-    "correct_answer": "(C) Myristicine"
+    "correct_answer": "Myristicine",
+    "explanation": "Myristicin is a natural allylbenzene derivative found in nutmeg that possesses potent psychoactive and neurotoxic profiles when ingested in large quantities."
   },
   {
+    "id": "kpsc_q43",
     "question": "Which among the following is a C-glycoside?",
     "options": [
-      "(A) Sennoside C",
-      "(B) Aloe-emodin",
-      "(C) Rhein",
-      "(D) Aloin"
+      "Sennoside C",
+      "Aloe-emodin",
+      "Rhein",
+      "Aloin"
     ],
-    "correct_answer": "(D) Aloin"
+    "correct_answer": "Aloin",
+    "explanation": "Aloin, isolated from Aloe species, represents a classic C-glycoside where the anomeric carbon is linked directly to a carbon atom of the anthrone ring."
   },
   {
+    "id": "kpsc_q44",
     "question": "The oil which is used for the production of Vanillin?",
     "options": [
-      "(A) Clove oil",
-      "(B) Lemon oil",
-      "(C) Cinnamon oil",
-      "(D) Peppermint oil"
+      "Clove oil",
+      "Lemon oil",
+      "Cinnamon oil",
+      "Peppermint oil"
     ],
-    "correct_answer": "(A) Clove oil"
+    "correct_answer": "Clove oil",
+    "explanation": "Clove oil is enriched with eugenol, which serves as a major chemical precursor for the semi-synthetic manufacture of vanillin."
   },
   {
+    "id": "kpsc_q45",
     "question": "Stomata present in Digitalis purpurea :",
     "options": [
-      "(A) Rubiaceous",
-      "(B) Ranumculaceous",
-      "(C) Caryophyllaceous",
-      "(D) Cruciferous"
+      "Rubiaceous",
+      "Ranumculaceous",
+      "Caryophyllaceous",
+      "Cruciferous"
     ],
-    "correct_answer": "(B) Ranumculaceous"
+    "correct_answer": "Ranumculaceous",
+    "explanation": "Digitalis purpurea leaves contain anomocytic stomata, which are botanically designated as Ranunculaceous stomata."
   },
   {
+    "id": "kpsc_q46",
     "question": "Which of the following not posses narcotic activity?",
     "options": [
-      "(A) Narcotine",
-      "(B) Morphine",
-      "(C) Diacetylmorphine",
-      "(D) Tetrahydrocannabinol"
+      "Narcotine",
+      "Morphine",
+      "Diacetylmorphine",
+      "Tetrahydrocannabinol"
     ],
-    "correct_answer": "(A) Narcotine"
+    "correct_answer": "Narcotine",
+    "explanation": "Narcotine (also called noscapine) is a benzylisoquinoline alkaloid present in opium that functions as an antitussive and exhibits no significant narcotic or analgesic dependency profiles."
   },
   {
+    "id": "kpsc_q47",
     "question": "Which among the following is known as ‘St. Antony’s Fire’?",
     "options": [
-      "(A) Belladonna",
-      "(B) Digitalis",
-      "(C) Rauwolfia",
-      "(D) Ergot"
+      "Belladonna",
+      "Digitalis",
+      "Rauwolfia",
+      "Ergot"
     ],
-    "correct_answer": "(D) Ergot"
+    "correct_answer": "Ergot",
+    "explanation": "Ergotism, a clinical poisoning from ingesting ergot-infected grains, causes severe peripheral vasoconstriction and burning sensations historically labeled as 'St. Anthony's Fire'."
   },
   {
+    "id": "kpsc_q48",
     "question": "The bitter glycoside present in Cinchona is :",
     "options": [
-      "(A) Quinidine",
-      "(B) Quinine",
-      "(C) Cinchonine",
-      "(D) Quinovin"
+      "Quinidine",
+      "Quinine",
+      "Cinchonine",
+      "Quinovin"
     ],
-    "correct_answer": "(D) Quinovin"
+    "correct_answer": "Quinovin",
+    "explanation": "While Cinchona contains quinoline alkaloids like quinine, its major non-nitrogenous amorphous bitter glycoside compound is Quinovin."
   },
   {
+    "id": "kpsc_q49",
     "question": "Which among the following is used as an anti-inflammatory agent?",
     "options": [
-      "(A) Diastase",
-      "(B) Pepsin",
-      "(C) Papain",
-      "(D) Gelatin"
+      "Diastase",
+      "Pepsin",
+      "Papain",
+      "Gelatin"
     ],
-    "correct_answer": "(C) Papain"
+    "correct_answer": "Papain",
+    "explanation": "Papain is a proteolytic enzyme derived from papaya that helps break down inflammatory exudates and reduce tissue swelling."
   },
   {
+    "id": "kpsc_q50",
     "question": "Cremocarp of Coriander fruit contains :",
     "options": [
-      "(A) 2 vittae",
-      "(B) 4 vittae",
-      "(C) 6 vittae",
-      "(D) 12 vittae"
+      "2 vittae",
+      "4 vittae",
+      "6 vittae",
+      "12 vittae"
     ],
-    "correct_answer": "(A) 2 vittae"
+    "correct_answer": "2 vittae",
+    "explanation": "The dorsal surface of a coriander mericarp features zero visible vittae, while its commissural face contains 2 vittae, making a total of 2 per cremocarp."
   },
   {
+    "id": "kpsc_q51",
     "question": "Which of the following drug is administered intravenously to induce anaesthesia?",
     "options": [
-      "(A) Isoflurane",
-      "(B) Nitrous oxide",
-      "(C) Thiopentone sodium",
-      "(D) Ether"
+      "Isoflurane",
+      "Nitrous oxide",
+      "Thiopentone sodium",
+      "Ether"
     ],
-    "correct_answer": "(C) Thiopentone sodium"
+    "correct_answer": "Thiopentone sodium",
+    "explanation": "Thiopentone sodium is an ultra-short-acting barbiturate administered intravenously for the rapid and smooth induction of general anesthesia."
   },
   {
+    "id": "kpsc_q52",
     "question": "An adverse effect of Penicillin is :",
     "options": [
-      "(A) Bone Marrow suppression",
-      "(B) Teratogenicity",
-      "(C) Ototoxicity",
-      "(D) Hypersensitivity reaction"
+      "Bone Marrow suppression",
+      "Teratogenicity",
+      "Ototoxicity",
+      "Hypersensitivity reaction"
     ],
-    "correct_answer": "(D) Hypersensitivity reaction"
+    "correct_answer": "Hypersensitivity reaction",
+    "explanation": "Hypersensitivity or allergic reactions ranging from skin rashes to life-threatening anaphylactic shock stand as the most common adverse profile associated with penicillins."
   },
   {
+    "id": "kpsc_q53",
     "question": "Which among the following is not a loop diuretic?",
     "options": [
-      "(A) Furosemide",
-      "(B) Indapamide",
-      "(C) Bumetanide",
-      "(D) Torsemide"
+      "Furosemide",
+      "Indapamide",
+      "Bumetanide",
+      "Torsemide"
     ],
-    "correct_answer": "(B) Indapamide"
+    "correct_answer": "Indapamide",
+    "explanation": "Indapamide is categorized as a thiazide-like diuretic rather than a loop (high-ceiling) diuretic."
   },
   {
+    "id": "kpsc_q54",
     "question": "An adrenergic drug used as bronchodilator is :",
     "options": [
-      "(A) Terbutaline",
-      "(B) Methoxamine",
-      "(C) Dobutamine",
-      "(D) Aminophylline"
+      "Terbutaline",
+      "Methoxamine",
+      "Dobutamine",
+      "Aminophylline"
     ],
-    "correct_answer": "(A) Terbutaline"
+    "correct_answer": "Terbutaline",
+    "explanation": "Terbutaline selectively activates $\beta_2$-adrenergic receptors to relax bronchial smooth muscle. Note: Aminophylline is a bronchodilator but is a xanthine derivative, not an adrenergic drug."
   },
   {
+    "id": "kpsc_q55",
     "question": "The classification under which glibenclamide belongs :",
     "options": [
-      "(A) Sulphonyl ureas",
-      "(B) Biguanides",
-      "(C) Thiazolidinediones",
-      "(D) Phenylalanine analogues"
+      "Sulphonyl ureas",
+      "Biguanides",
+      "Thiazolidinediones",
+      "Phenylalanine analogues"
     ],
-    "correct_answer": "(A) Sulphonyl ureas"
+    "correct_answer": "Sulphonyl ureas",
+    "explanation": "Glibenclamide (glyburide) is a well-known second-generation sulfonylurea oral hypoglycemic agent used to manage Type 2 diabetes."
   },
   {
+    "id": "kpsc_q56",
     "question": "An example for intermediate acting nondepolarizing neuromuscular blocking agent is :",
     "options": [
-      "(A) Doxacurium",
-      "(B) Cisatracurium",
-      "(C) Mivacurium",
-      "(D) Succinylcholine"
+      "Doxacurium",
+      "Cisatracurium",
+      "Mivacurium",
+      "Succinylcholine"
     ],
-    "correct_answer": "(B) Cisatracurium"
+    "correct_answer": "Cisatracurium",
+    "explanation": "Cisatracurium is a classic intermediate-acting non-depolarizing skeletal muscle relaxant that undergoes Hofmann elimination."
   },
   {
+    "id": "kpsc_q57",
     "question": "Which among the following is an autocoid?",
     "options": [
-      "(A) Ketanserin",
-      "(B) Mephenteramine",
-      "(C) Glucagon",
-      "(D) Histamine"
+      "Ketanserin",
+      "Mephenteramine",
+      "Glucagon",
+      "Histamine"
     ],
-    "correct_answer": "(D) Histamine"
+    "correct_answer": "Histamine",
+    "explanation": "Autacoids are biological substances generated locally to act near their site of synthesis. Histamine represents a classic amine autacoid."
   },
   {
+    "id": "kpsc_q58",
     "question": "Antithrombotic dose of Aspirin is :",
     "options": [
-      "(A) 300-400 mg/day",
-      "(B) 10-25 mg/day",
-      "(C) 75-150 mg/day",
-      "(D) 400-600 mg/day"
+      "300-400 mg/day",
+      "10-25 mg/day",
+      "75-150 mg/day",
+      "400-600 mg/day"
     ],
-    "correct_answer": "(C) 75-150 mg/day"
+    "correct_answer": "75-150 mg/day",
+    "explanation": "Low doses of aspirin (typically 75–150 mg/day) are used clinically to selectively inhibit platelet cyclooxygenase-1 ($\text{COX-1}$) and provide antithrombotic cardioprotection."
   },
   {
+    "id": "kpsc_q59",
     "question": "Which of the following drug produce ‘‘on-off effect’’ on long term therapy?",
     "options": [
-      "(A) Phenytoin",
-      "(B) Chlorpromazine",
-      "(C) Clozapine",
-      "(D) Levodopa"
+      "Phenytoin",
+      "Chlorpromazine",
+      "Clozapine",
+      "Levodopa"
     ],
-    "correct_answer": "(D) Levodopa"
+    "correct_answer": "Levodopa",
+    "explanation": "Long-term levodopa therapy in Parkinson's disease often results in sudden shifts between periods of good mobility ('on') and severe bradykinesia ('off')."
   },
   {
+    "id": "kpsc_q60",
     "question": "Therapeutic dose of isoniazid for adults is :",
     "options": [
-      "(A) 200 mg",
-      "(B) 300 mg",
-      "(C) 100 mg",
-      "(D) 750 mg"
+      "200 mg",
+      "300 mg",
+      "100 mg",
+      "750 mg"
     ],
-    "correct_answer": "(B) 300 mg"
+    "correct_answer": "300 mg",
+    "explanation": "The standard daily therapeutic adult dose of Isoniazid (INH) in typical antitubercular treatment regimens is 300 mg."
   },
   {
+    "id": "kpsc_q61",
     "question": "Obsolescent item is :",
     "options": [
-      "(A) It is going out of use, but not yet completely unusable",
-      "(B) It is no longer usable due to change in practice",
-      "(C) It is an unusable item having only material cost",
-      "(D) It cannot be used"
+      "It is going out of use, but not yet completely unusable",
+      "It is no longer usable due to change in practice",
+      "It is an unusable item having only material cost",
+      "It cannot be used"
     ],
-    "correct_answer": "(A) It is going out of use, but not yet completely unusable"
+    "correct_answer": "It is going out of use, but not yet completely unusable",
+    "explanation": "In inventory and materials management, obsolescent items refer to stock elements that are progressively phasing out of use but still hold minimal operational function."
   },
   {
+    "id": "kpsc_q62",
     "question": "What is lead time?",
     "options": [
-      "(A) The average time for placing an order",
-      "(B) The average time for accepting an order",
-      "(C) The average time for placing an order and receiving the item",
-      "(D) The time taken for scrutinizing the order"
+      "The average time for placing an order",
+      "The average time for accepting an order",
+      "The average time for placing an order and receiving the item",
+      "The time taken for scrutinizing the order"
     ],
-    "correct_answer": "(C) The average time for placing an order and receiving the item"
+    "correct_answer": "The average time for placing an order and receiving the item",
+    "explanation": "Lead time defines the full operational duration that passes from the initial generation of a purchase requisition until the stock arrives and is ready for use."
   },
   {
+    "id": "kpsc_q63",
     "question": "Buffer stock items means :",
     "options": [
-      "(A) The quantity of items which are expired",
-      "(B) The quantity of items is not of standard",
-      "(C) The quantity of items kept for unfrozen demands",
-      "(D) The quantity of items which are not useable"
+      "The quantity of items which are expired",
+      "The quantity of items is not of standard",
+      "The quantity of items kept for unfrozen demands",
+      "The quantity of items which are not useable"
     ],
-    "correct_answer": "(C) The quantity of items kept for unfrozen demands"
+    "correct_answer": "The quantity of items kept for unfrozen demands",
+    "explanation": "Buffer stock (safety stock) acts as a calculated inventory reserve designed to safeguard against unexpected fluctuations (unfrozen demands) or delivery delays."
   },
   {
+    "id": "kpsc_q64",
     "question": "Re-order level means :",
     "options": [
-      "(A) The level at which new order to be placed",
-      "(B) The level at which cancellation of order",
-      "(C) The level at which recall of order",
-      "(D) The level at which there is zero order"
+      "The level at which new order to be placed",
+      "The level at which cancellation of order",
+      "The level at which recall of order",
+      "The level at which there is zero order"
     ],
-    "correct_answer": "(A) The level at which new order to be placed"
+    "correct_answer": "The level at which new order to be placed",
+    "explanation": "The re-order point or level is the specific quantity threshold of inventory that automatically signals the need to issue a fresh replenishment order."
   },
   {
+    "id": "kpsc_q65",
     "question": "The carrying cost includes the following except :",
     "options": [
-      "(A) The interest on the money locked up on the material stocked",
-      "(B) The amount of Tax payable",
-      "(C) The insurance on goods",
-      "(D) The cost incurred by the purchase department"
+      "The interest on the money locked up on the material stocked",
+      "The amount of Tax payable",
+      "The insurance on goods",
+      "The cost incurred by the purchase department"
     ],
-    "correct_answer": "(D) The cost incurred by the purchase department"
+    "correct_answer": "The cost incurred by the purchase department",
+    "explanation": "The expenses generated by the purchasing department itself represent ordering costs, whereas storage, interest, insurance, and inventory taxes fall under carrying costs."
   },
   {
+    "id": "kpsc_q66",
     "question": "ABC analysis of inventory means :",
     "options": [
-      "(A) Always buffered control",
-      "(B) Always beneficial control",
-      "(C) Always better control",
-      "(D) Alternative better control"
+      "Always buffered control",
+      "Always beneficial control",
+      "Always better control",
+      "Alternative better control"
     ],
-    "correct_answer": "(C) Always better control"
+    "correct_answer": "Always better control",
+    "explanation": "ABC Analysis stands for 'Always Better Control', an inventory management technique that categorizes items based on their annual consumption value."
   },
   {
+    "id": "kpsc_q67",
     "question": "The major legal requirements of procurement of drugs include :",
     "options": [
-      "(A) Pharmacy Act",
-      "(B) Drugs and Magic remedies Act",
-      "(C) Poison Act",
-      "(D) Drugs and Cosmetic Act"
+      "Pharmacy Act",
+      "Drugs and Magic remedies Act",
+      "Poison Act",
+      "Drugs and Cosmetic Act"
     ],
-    "correct_answer": "(D) Drugs and Cosmetic Act"
+    "correct_answer": "Drugs and Cosmetic Act",
+    "explanation": "The Drugs and Cosmetics Act comprehensively dictates all legal mandates surrounding the manufacture, sale, distribution, and procurement of pharmaceutical products in India."
   },
   {
+    "id": "kpsc_q68",
     "question": "The following statement is not correct about open tender :",
     "options": [
-      "(A) Quotations are invited from the manufacturers or their representatives",
-      "(B) Quotations are based on the terms and conditions specified in the tender invitation",
-      "(C) Open tenders used only in those cases where the value of the tender is moderate",
-      "(D) Open tenders are used for procurement of large quantity of items"
+      "Quotations are invited from the manufacturers or their representatives",
+      "Quotations are based on the terms and conditions specified in the tender invitation",
+      "Open tenders used only in those cases where the value of the tender is moderate",
+      "Open tenders are used for procurement of large quantity of items"
     ],
-    "correct_answer": "(C) Open tenders used only in those cases where the value of the tender is moderate"
+    "correct_answer": "Open tenders used only in those cases where the value of the tender is moderate",
+    "explanation": "Open tenders are explicitly reserved for large-scale, high-value procurement operations to foster maximum transparency and competitive bidding, rather than moderate values."
   },
   {
+    "id": "kpsc_q69",
     "question": "In ABC Analysis A item covers :",
     "options": [
-      "(A) 10% of total inventory",
-      "(B) 20% of total inventory",
-      "(C) 80% of total inventory",
-      "(D) 50% of total inventory"
+      "10% of total inventory",
+      "20% of total inventory",
+      "80% of total inventory",
+      "50% of total inventory"
     ],
-    "correct_answer": "(A) 10% of total inventory"
+    "correct_answer": "10% of total inventory",
+    "explanation": "Under the Pareto principle in ABC analysis, 'A' class items represent a small fraction of total quantities (roughly 10%) but account for the highest value share (roughly 70-80%)."
   },
   {
+    "id": "kpsc_q70",
     "question": "Perpetual inventory system means :",
     "options": [
-      "(A) Inventories are managed by cost",
-      "(B) A system of recording the store balance after every receipt and issue",
-      "(C) Vital few trivial many",
-      "(D) Inventories are managed by numbers"
+      "Inventories are managed by cost",
+      "A system of recording the store balance after every receipt and issue",
+      "Vital few trivial many",
+      "Inventories are managed by numbers"
     ],
-    "correct_answer": "(B) A system of recording the store balance after every receipt and issue"
+    "correct_answer": "A system of recording the store balance after every receipt and issue",
+    "explanation": "A perpetual inventory system maintains continuous updating of stock balances immediately following every incoming receipt or outgoing transaction."
   },
   {
+    "id": "kpsc_q71",
     "question": "Schedule FF is related with :",
     "options": [
-      "(A) Paste formulation",
-      "(B) Skin and cosmetic preparation",
-      "(C) Ophthalmic preparation",
-      "(D) Oral Liquid formulation"
+      "Paste formulation",
+      "Skin and cosmetic preparation",
+      "Ophthalmic preparation",
+      "Oral Liquid formulation"
     ],
-    "correct_answer": "(C) Ophthalmic preparation"
+    "correct_answer": "Ophthalmic preparation",
+    "explanation": "Schedule FF under the Drugs and Cosmetics Rules establishes the distinct manufacturing and quality standards required for ophthalmic solutions and ointments."
   },
+  {
+    "id": "kpsc_q72",
+    "question": "The objective of Pharmacy Act 1948 except :",
+    "options": [
+      "Regulating and raising the status of profession of pharmacy in India",
+      "Regulating the stock and sale of drugs in pharmacies",
+      "Providing uniform education and training to pharmacy professionals",
+      "Maintaining control over the persons entering the profession"
+    ],
+    "correct_answer": "Regulating the stock and sale of drugs in pharmacies",
+    "explanation": "Regulating the stock, commerce, and sale mechanics of drugs falls under the jurisdiction of the Drugs and Cosmetics Act, whereas the Pharmacy Act focuses purely on education and profession regulation."
+  },
+  {
+    "id": "kpsc_q73",
+    "question": "As per schedule P sodium valproate tab should be stored in/at :",
+    "options": [
+      "A cold place",
+      "Temperature not exceeding 5 degrees",
+      "A cool dry place away from heat and direct light",
+      "A temperature below 25 degrees"
+    ],
+    "correct_answer": "A cool dry place away from heat and direct light",
+    "explanation": "Schedule P dictates that Sodium Valproate tablets must be preserved inside tightly closed, moisture-resistant containers in a cool, dry place away from light."
+  },
+  {
+    "id": "kpsc_q74",
+    "question": "Amoxycillin clavulanic acid tab comes under :",
+    "options": [
+      "Schedule P",
+      "Schedule H",
+      "Schedule X",
+      "Schedule F"
+    ],
+    "correct_answer": "Schedule H",
+    "explanation": "Amoxicillin-clavulanic acid combinations are prescription-only antibiotics regulated under the Schedule H framework."
+  },
+  {
+    "id": "kpsc_q75",
+    "question": "The Drug and Magic Remedies Act is enacted in the year :",
+    "options": [
+      "1948",
+      "1919",
+      "1940",
+      "1954"
+    ],
+    "correct_answer": "1954",
+    "explanation": "The Drugs and Magic Remedies (Objectionable Advertisements) Act was enacted by the Indian Parliament in 1954 to curb false medicinal advertisements."
+  },
+  {
+     "id": "kpsc_q76",
+    "question": "As per Narcotic drugs and psychotropic substance Act rules a person cultivates or sell, transport of Cannabis on first conviction is :",
+    "options": [
+      "Rigorous imprisonment up to 10 years or fine up to Rs. 10 lakhs",
+      "Rigorous imprisonment up to 10 years or fine up to Rs. 1 lakhs",
+      "Rigorous imprisonment up to 1 years or fine up to Rs. 10 lakhs",
+      "Rigorous imprisonment up to 1 years or fine up to Rs. 5 lakhs"
+    ],
+    "correct_answer": "Rigorous imprisonment up to 10 years or fine up to Rs. 1 lakhs",
+    "explanation": "Under standard NDPS provisions for small/commercial traffic baseline offenses involving certain cultivations or quantities, the minimum rigorous term scales up to 10 years with fines up to 1 lakh."
+  },
+  {
+    "id": "kpsc_q77",
+    "question": "Schedule –————— of Drugs and Cosmetic Act contains a list of diseases and ailments which a drug may not claim to prevent or cure.",
+    "options": [
+      "C & C1",
+      "F",
+      "J",
+      "H"
+    ],
+    "correct_answer": "J",
+    "explanation": "Schedule J presents a master list of non-curable diseases (e.g., blindness, AIDS) that no drug formulation can legally advertise to cure or prevent."
+  },
+  {
+    "id": "kpsc_q78",
+    "question": "The Drugs and Cosmetic Act was passed with main objective to :",
+    "options": [
+      "To register a pharmacist",
+      "Regulate import, manufacture distribution sale of drugs and cosmetics",
+      "Raise the status of the profession of pharmacy",
+      "Providing uniform education to pharmacists"
+    ],
+    "correct_answer": "Regulate import, manufacture distribution sale of drugs and cosmetics",
+    "explanation": "The primary objective behind the establishment of the Drugs and Cosmetics Act 1940 was to ensure safety and quality by monitoring import, production, and marketplace distribution."
+  },
+  {
+    "id": "kpsc_q79",
+    "question": "In State Pharmacy Council how many members are elected from amongst themselves by registered pharmacists of the state?",
+    "options": [
+      "Four",
+      "Five",
+      "Six",
+      "Seven"
+    ],
+    "correct_answer": "Six",
+    "explanation": "The Pharmacy Act of 1948 mandates that State Pharmacy Councils must have six members elected from among themselves by the registered pharmacists of that specific state."
+  },
+  {
+    "id": "kpsc_q80",
+    "question": "For licence granted to sell by wholesale drugs, specified C and C(1) drugs form no is :",
+    "options": [
+      "20",
+      "21",
+      "20B",
+      "21B"
+    ],
+    "correct_answer": "21B",
+    "explanation": "Form 21B is the official license format granted for the wholesale distribution of biological and special products listed under Schedules C and C1."
+  },
+  {
+    "id": "kpsc_q81",
+    "question": "The safest and the most efficient means of delivering drugs from the pharmacy to the patients :",
+    "options": [
+      "Unit dose drug distribution system",
+      "Complete floor stock system",
+      "Online pharmacy",
+      "Combination of (B) and (C)"
+    ],
+    "correct_answer": "Unit dose drug distribution system",
+    "explanation": "The unit-dose system minimizes dispensing errors, provides single individually packaged doses, and optimizes economic and safety accountability within institutional pharmacy practice."
+  },
+  {
+    "id": "kpsc_q82",
+    "question": "Model essential medicine list was prepared by :",
+    "options": [
+      "Hospital Management",
+      "Government",
+      "WHO",
+      "DMO"
+    ],
+    "correct_answer": "WHO",
+    "explanation": "The Model List of Essential Medicines is periodically reviewed and updated by the World Health Organization (WHO) to serve as a guide for global healthcare systems."
+  },
+  {
+    "id": "kpsc_q83",
+    "question": "One of the disadvantage of floor stock system :",
+    "options": [
+      "No return of drugs to the pharmacy",
+      "Reduction in drug order transcriptions",
+      "Reduction in pharmacy personnel",
+      "Inadequate supervision of drug stocked"
+    ],
+    "correct_answer": "Inadequate supervision of drug stocked",
+    "explanation": "Because medicines are stored directly on nursing wards in floor stock systems, there is an increased risk of omitted oversight, medication wastage, or inappropriate inventory control."
+  },
+  {
+    "id": "kpsc_q84",
+    "question": "For the calculation of the parameter economic order quantity, we are not using :",
+    "options": [
+      "Consumption over a period of time",
+      "Cost for pain and sufferings",
+      "Setup costs",
+      "Direct production cost per unit"
+    ],
+    "correct_answer": "Cost for pain and sufferings",
+    "explanation": "Economic Order Quantity ($\text{EOQ}$) calculations depend strictly on tangible metrics (demand rates, ordering/setup costs, and carrying costs) and cannot incorporate subjective concepts like 'pain and suffering'."
+  },
+  {
+    "id": "kpsc_q85",
+    "question": "Water for injection is prepared by :",
+    "options": [
+      "Distillation",
+      "Demineralization",
+      "Sedimentation",
+      "Decantation"
+    ],
+    "correct_answer": "Distillation",
+    "explanation": "Distillation is the official and most reliable method to remove pyrogens, volatile chemicals, and microorganisms to produce Water for Injection (WFI)."
+  },
+  {
+    "id": "kpsc_q86",
+    "question": "In sterile manufacturing, the solute benzalkonium chloride is used in the concentration of –————— percentage.",
+    "options": [
+      "0.5%",
+      "0.001%",
+      "0.01%",
+      "0.45%"
+    ],
+    "correct_answer": "0.01%",
+    "explanation": "Benzalkonium chloride is commonly employed as an antimicrobial preservative in ophthalmic or sterile formulations at a standard concentration of 0.01% w/v."
+  },
+  {
+    "id": "kpsc_q87",
+    "question": "Type I borosilicate glass container for parenteral preparation is composed of :",
+    "options": [
+      "Sodium oxide and boric oxide",
+      "Calcium oxide and boric oxide",
+      "Silicon dioxide and calcium oxide",
+      "Silicon dioxide and boric oxide"
+    ],
+    "correct_answer": "Silicon dioxide and boric oxide",
+    "explanation": "Type I glass is highly resistant borosilicate glass primarily comprised of silicon dioxide ($\text{SiO}_2$) and boric oxide ($\text{B}_2\text{O}_3$), providing high chemical resistance."
+  },
+  {
+    "id": "kpsc_q88",
+    "question": "Indexing and abstracting sources are induced in which type of literature in Drug Information :",
+    "options": [
+      "Primary",
+      "Secondary",
+      "Tertiary",
+      "Quaternary"
+    ],
+    "correct_answer": "Secondary",
+    "explanation": "Secondary drug literature comprises abstracting and indexing services (e.g., PubMed, Embase) that compile and direct users toward primary source articles."
+  },
+  {
+    "id": "kpsc_q89",
+    "question": "Bandage cloth consists of cotton cloth of plain weave made from machine spun yarn of suitable count to comply with a bleached count between –————— for a warp.",
+    "options": [
+      "20 tex and 25 tex",
+      "25 tex and 30 tex",
+      "35 tex and 40 tex",
+      "41 tex and 45 tex"
+    ],
+    "correct_answer": "25 tex and 30 tex",
+    "explanation": "Official pharmacopoeial specifications require that the cotton bleached count for surgical bandage cloth warp yarn falls between 25 tex and 30 tex."
+  },
+  {
+    "id": "kpsc_q90",
+    "question": "The member secretary in PTC :",
+    "options": [
+      "RMO",
+      "Registered medical practitioner",
+      "Head Nurse",
+      "Hospital Pharmacists"
+    ],
+    "correct_answer": "Hospital Pharmacists",
+    "explanation": "In a Pharmacy and Therapeutics Committee (PTC), a leading physician typically serves as Chairman, while the Chief Hospital Pharmacist is designated as the Member-Secretary."
+  },
+  {
+    "id": "kpsc_q91",
+    "question": "The category of drugs which induces peptic ulcer?",
+    "options": [
+      "Sulphonyl ureas",
+      "NSAID’s",
+      "Biguanides",
+      "Statins"
+    ],
+    "correct_answer": "NSAID’s",
+    "explanation": "Non-Steroidal Anti-Inflammatory Drugs (NSAIDs) inhibit cyclooxygenase-1 ($\text{COX-1}$), reducing cytoprotective prostaglandins and predisposing the stomach to mucosal injury and peptic ulceration."
+  },
+  {
+    "id": "kpsc_q92",
+    "question": "The test which is used to detect antibody on cell surface :",
+    "options": [
+      "APTT",
+      "Creatinine",
+      "Coomb’s test",
+      "Alkaline phosphatase test"
+    ],
+    "correct_answer": "Coomb’s test",
+    "explanation": "The direct Coombs test (antiglobulin test) is used clinically to detect autoantibodies bound directly onto the surface of red blood cells."
+  },
+  {
+    "id": "kpsc_q93",
+    "question": "The marker used to detect acute myocardial infarction :",
+    "options": [
+      "Lactic acid dehydrogenase",
+      "Alkaline phosphatase",
+      "SGOT",
+      "Creatinine phosphokinase"
+    ],
+    "correct_answer": "Creatinine phosphokinase",
+    "explanation": "Creatinine Phosphokinase (specifically the CPK-MB isoenzyme) is a sensitive cardiac biomarker that rises quickly following myocardial muscle injury."
+  },
+  {
+    "id": "kpsc_q94",
+    "question": "Interaction of MAO inhibitors with tyramine will result in :",
+    "options": [
+      "Hypertensive crisis",
+      "Diabetes mellitus",
+      "UTI",
+      "Rheumatic Diseases"
+    ],
+    "correct_answer": "Hypertensive crisis",
+    "explanation": "Inhibition of MAO prevents the breakdown of dietary tyramine, allowing it to displace noradrenaline into synapses and trigger a severe hypertensive crisis ('cheese reaction')."
+  },
+  {
+    "id": "kpsc_q95",
+    "question": "Potassium salts will not interact with :",
+    "options": [
+      "Triamterene",
+      "Amiloride",
+      "Quinidine",
+      "Ranitidine"
+    ],
+    "correct_answer": "Ranitidine",
+    "explanation": "Triamterene and amiloride are potassium-sparing diuretics that cause potassium retention, and quinidine can interact with serum potassium levels to modify cardiac conduction. Ranitidine, an $\text{H}_2$-blocker, does not interact with potassium salts."
+  },
+  {
+    "id": "kpsc_q96",
+    "question": "The consequence of interaction between NSAID’s and methotrexate is :",
+    "options": [
+      "Effect of NSAID’s will increase",
+      "Therapeutic failure",
+      "Increased toxicity of methotrexate",
+      "Decreased toxicity of methotrexate"
+    ],
+    "correct_answer": "Increased toxicity of methotrexate",
+    "explanation": "NSAIDs reduce renal perfusion and compete for tubular secretion pathways, reducing methotrexate elimination and increasing the risk of severe methotrexate toxicity."
+  },
+  {
+    "id": "kpsc_q97",
+    "question": "The teratogenicity of indomethacin will result in :",
+    "options": [
+      "Multiple defects",
+      "Premature closure of ductus arteriosus",
+      "Foetal goitre",
+      "Virilization of female foetus"
+    ],
+    "correct_answer": "Premature closure of ductus arteriosus",
+    "explanation": "Indomethacin crosses the placenta and inhibits prostaglandin production, which can cause premature closure of the fetal ductus arteriosus in utero."
+  },
+  {
+    "id": "kpsc_q98",
+    "question": "Antidot of Acetaminophen :",
+    "options": [
+      "Acetyl cysteine",
+      "Atropine",
+      "Pralidoxime",
+      "Deferoxamine"
+    ],
+    "correct_answer": "Acetyl cysteine",
+    "explanation": "N-acetylcysteine (NAC) acts as a specific antidote for paracetamol (acetaminophen) toxicity by restoring liver glutathione stores to safely detoxify the reactive metabolite NAPQI."
+  },
+  {
+    "id": "kpsc_q99",
+    "question": "Arsenic poisoning can be treated by :",
+    "options": [
+      "EDTA",
+      "Alcohol",
+      "Mannitol",
+      "Dimercaprol"
+    ],
+    "correct_answer": "Dimercaprol",
+    "explanation": "Dimercaprol (British Anti-Lewisite or BAL) acts as a chelating agent with sulfhydryl groups that bind heavy metals like arsenic to facilitate their excretion."
+  },
+  {
+    "id": "kpsc_q100",
+    "question": "If a structurally different drug provides the same therapeutic or clinical response as another drug, the two are considered as being :",
+    "options": [
+      "Nonequivalent",
+      "Therapeutic equivalent",
+      "Clinical equivalent",
+      "Chemical equivalent"
+    ],
+    "correct_answer": "Therapeutic equivalent",
+    "explanation": "Therapeutic equivalence applies to distinct chemical entities that produce identical clinical safety and efficacy outcomes when administered for a given health condition."
+  }
 ]
