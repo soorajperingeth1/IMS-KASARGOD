@@ -1,617 +1,702 @@
 [
   {
-    "id": 21,
-    "question": "In tablet manufacturing, TALC is used as",
-    "options": ["Diluent", "Granulating agent", "Glidant", "Disintegrating agent"],
-    "correct_answer": "Glidant",
-    "explanation": "Talc reduces interparticulate friction, thereby improving the flow properties of tablet granules or powders from the hopper into the die cavity during compression."
-  },
-  {
-    "id": 22,
-    "question": "SCHICK TEST is done to",
-    "options": [
-      "Detect the degree of immunity against Diphtheria.",
-      "Detect the degree of immunity against Tuberculosis",
-      "Detect the degree of immunity against Typhoid",
-      "identify the presence of Ketone bodies in urine"
-    ],
-    "correct_answer": "Detect the degree of immunity against Diphtheria.",
-    "explanation": "The Schick test is a diagnostic skin test used to determine whether or not a person is susceptible to or immune to Diphtheria, caused by Corynebacterium diphtheriae."
-  },
-  {
-    "id": 23,
-    "question": "Glycerin or Sorbitol is added to gelatin in the preparation of soft gelatin capsules as",
-    "options": ["Preservatives", "Plasticizer", "Polishing agent", "Sweetening agent"],
-    "correct_answer": "Plasticizer",
-    "explanation": "Plasticizers like glycerin, sorbitol, or propylene glycol are added to soft gelatin capsules to ensure flexibility, elasticity, and softness by reducing the glass transition temperature of gelatin."
-  },
-  {
-    "id": 24,
-    "question": "Principle of Size Reduction in Ball Mill is",
-    "options": ["Compression", "Impact", "Attrition", "Combination of Impact and Attrition"],
-    "correct_answer": "Combination of Impact and Attrition",
-    "explanation": "In a ball mill, size reduction occurs due to impact as balls drop from the top of the shell onto the material, and attrition as the balls roll and rub against each other and the material."
-  },
-  {
-    "id": 25,
-    "question": "Eugenia caryophyllus is the botanical name of",
-    "options": ["Clove", "Eucalyptus", "Coriander", "Cardamom"],
-    "correct_answer": "Clove",
-    "explanation": "Eugenia caryophyllus (synonym Syzygium aromaticum) belongs to the family Myrtaceae and is the botanical source for clove."
-  },
-  {
-    "id": 26,
-    "question": "Who among the following is not an Ex-officio member of central council of Pharmacy Council of India",
-    "options": [
-      "Director General, Health Services",
-      "Drugs Controller of India",
-      "Director, Central Drugs Laboratory",
-      "Health Secretary, Govt. of India"
-    ],
-    "correct_answer": "Health Secretary, Govt. of India",
-    "explanation": "According to the Pharmacy Act 1948, the three ex-officio members of the PCI are the Director General of Health Services, the Drugs Controller of India, and the Director of the Central Drugs Laboratory."
+    "id": "kpsc_q1",
+    "question": "Millipore filters are examples of which type of filters used in sterilization?",
+    "options": ["Membrane filters", "Ceramic filters", "Seitz filter", "Fibrous Pad"],
+    "answer": "Membrane filters",
+    "explanation": "Millipore filters are thin polymeric membrane filters that remove microorganisms via absolute size exclusion."
   },
   {
-    "id": 27,
-    "question": "The limit test of Iron depends upon the interaction of iron with",
-    "options": ["Barium Sulphate reagent", "Diphenyl thiocarbazone", "Thioglycollic acid", "Mercuric Chloride"],
-    "correct_answer": "Thioglycollic acid",
-    "explanation": "The limit test of iron is based on the reaction of iron with thioglycollic acid in a medium citric acid buffered with ammonia, forming a pale pink to deep reddish-purple colored ferric thioglycollate complex."
+    "id": "kpsc_q2",
+    "question": "Enhanced sterilizing action of moist heat is mainly due to:",
+    "options": ["Oxidation of cellular constituents", "Coagulation of protoplasm", "Ionisation of constituents", "Alkylation of cellular components"],
+    "answer": "Coagulation of protoplasm",
+    "explanation": "Moist heat kills microorganisms primarily through the denaturation and coagulation of essential metabolic proteins."
   },
   {
-    "id": 28,
-    "question": "In relation to emulsion, formation of a layer of relatively concentrated emulsion above or below the surface is known as",
-    "options": ["Cracking", "Creaming", "Mottling", "Phase inversion"],
-    "correct_answer": "Creaming",
-    "explanation": "Creaming is a reversible phase separation process in which dispersed droplets, driven by buoyancy or gravity, aggregate to form a concentrated layer at the top or bottom of the emulsion."
-  },
-  {
-    "id": 29,
-    "question": "Drugs Inspector is appointed as per the provisions of",
-    "options": [
-      "Pharmacy Act 1948",
-      "Drugs and Cosmetics Act 1945",
-      "Drugs Inspector Act 1940",
-      "Narcotic and Psychotropic Substances Act 1985"
-    ],
-    "correct_answer": "Drugs and Cosmetics Act 1945",
-    "explanation": "Drug Inspectors are appointed under Section 21 of the Drugs and Cosmetics Act (often referred along with its rules finalized in 1945) by central or state governments."
+    "id": "kpsc_q3",
+    "question": "Which among the following is true about disinfection?",
+    "options": ["Destroys all viable forms of microorganisms", "Done by physical and chemical methods", "Cannot be used for producing sterile products", "None of the above"],
+    "answer": "Cannot be used for producing sterile products",
+    "explanation": "Disinfection kills vegetative cells but generally fails to destroy resistant bacterial spores, making it unsuitable for sterilization."
   },
-  {
-    "id": 30,
-    "question": "Presence of lignified trichomes is the characteristic microscopic feature of",
-    "options": ["Nux-vomica", "Digitalis", "Datura", "Cinchona"],
-    "correct_answer": "Nux-vomica",
-    "explanation": "Nux-vomica seeds (Strychnos nux-vomica) uniquely feature abundant, closely arranged, thick-walled, lignified clothing trichomes covering their epidermal surface."
+  {
+    "id": "kpsc_q4",
+    "question": "Sieve number used for wet screening of granules in moist granulation process of tablet manufacturing is:",
+    "options": ["Sieve No.3", "Sieve No.10", "Sieve No.22", "Sieve No.44"],
+    "answer": "Sieve No.10",
+    "explanation": "Sieve No. 10 is routinely utilized for screening the wet mass to yield uniform damp granules before drying."
+  },
+  {
+    "id": "kpsc_q5",
+    "question": "Super disintegrants used as tablet excipients:",
+    "options": ["Are required in low concentration", "Swell and disrupt the tablet", "Are mainly modified starches and cellulose", "All of the above"],
+    "answer": "All of the above",
+    "explanation": "Superdisintegrants like cross-linked carboxymethylcellulose are highly efficient at low concentrations due to rapid swelling behavior."
+  },
+  {
+    "id": "kpsc_q6",
+    "question": "Inadequate removal of air from granules in the die cavity before and during compression leads to:",
+    "options": ["Picking", "Sticking", "Binding", "Capping"],
+    "answer": "Capping",
+    "explanation": "Trapped air within the die cavity decompresses rapidly upon pressure release, forcing the upper cap of the tablet to separate."
+  },
+  {
+    "id": "kpsc_q7",
+    "question": "Disintegration test for uncoated tablets is carried out using which immersion liquid at 37±2°C?",
+    "options": ["0.1N HCl", "6.8 Phosphate buffer", "Distilled water", "Simulated gastric fluid"],
+    "answer": "Distilled water",
+    "explanation": "Standard official guidelines dictate using distilled water as the immersion fluid for regular uncoated tablet disintegration tests."
+  },
+  {
+    "id": "kpsc_q8",
+    "question": "Film forming polymer commonly used in non-enteric film coating of tablets is:",
+    "options": ["Salol", "Cellulose acetate phthalate", "Hydroxypropyl methylcellulose", "Shellac"],
+    "answer": "Hydroxypropyl methylcellulose",
+    "explanation": "HPMC is a popular non-enteric, water-soluble polymer used to form thin protective film layers on immediate-release tablets."
+  },
+  {
+    "id": "kpsc_q9",
+    "question": "Most suitable capsule size number used for filling approximately 450 mg of a powder fill is:",
+    "options": ["000", "0", "3", "5"],
+    "answer": "0",
+    "explanation": "Size 0 capsules possess a typical volume capacity ideal for holding between 400 mg to 500 mg of medium-density powders."
+  },
+  {
+    "id": "kpsc_q10",
+    "question": "Which of the following is not a standard quality control test for hard gelatin capsules?",
+    "options": ["Uniformity of weight", "Uniformity of content", "Disintegration test", "Friability test"],
+    "answer": "Friability test",
+    "explanation": "Friability testing evaluates the surface shock resistance of compressed tablets, not hollow gelatin shells."
+  },
+  {
+    "id": "kpsc_q11",
+    "question": "The rate-limiting step in the absorption of a drug from a solid dosage form is generally:",
+    "options": ["Disintegration", "Dissolution", "Permeation", "Gastric emptying"],
+    "answer": "Dissolution",
+    "explanation": "A drug must be in a soluble molecular form to cross biological membranes, making dissolution the rate-limiting step for poorly soluble drugs."
+  },
+  {
+    "id": "kpsc_q12",
+    "question": "Which of the following is an example of an oil-in-water (o/w) emulsifying agent?",
+    "options": ["Acacia", "Wool fat", "Resins", "Beeswax"],
+    "answer": "Acacia",
+    "explanation": "Acacia is a carbohydrate-based hydrophilic colloid that stabilizes oil-in-water emulsions."
+  },
+  {
+    "id": "kpsc_q13",
+    "question": "The HLB value range assigned for a wetting agent is:",
+    "options": ["1 to 3", "3 to 6", "7 to 9", "13 to 15"],
+    "answer": "7 to 9",
+    "explanation": "Surfactants featuring HLB values between 7 and 9 lower contact angles to act efficiently as wetting agents."
+  },
+  {
+    "id": "kpsc_q14",
+    "question": "A rheological system where viscosity decreases with an increase in shear rate is known as:",
+    "options": ["Dilatant", "Newtonian", "Pseudoplastic", "Plastic"],
+    "answer": "Pseudoplastic",
+    "explanation": "Pseudoplastic systems exhibit 'shear-thinning' behavior, where progressive mechanical force reduces fluid viscosity."
+  },
+  {
+    "id": "kpsc_q15",
+    "question": "What type of mill operates on the principle of combined impact and attrition?",
+    "options": ["Hammer mill", "Ball mill", "Edge runner mill", "Cutter mill"],
+    "answer": "Ball mill",
+    "explanation": "Ball mills utilize both impact forces from falling spheres and attrition from rolling contact to reduce particle size."
+  },
+  {
+    "id": "kpsc_q16",
+    "question": "The temperature parameters mandated for the storage of biological items in a cold place are:",
+    "options": ["0°C to 4°C", "2°C to 8°C", "8°C to 15°C", "Below 0°C"],
+    "answer": "2°C to 8°C",
+    "explanation": "A 'cold place' officially defines a temperature range maintained strictly between 2°C and 8°C."
+  },
+  {
+    "id": "kpsc_q17",
+    "question": "Which glass type is also referred to as highly resistant borosilicate glass?",
+    "options": ["Type I", "Type II", "Type III", "Type IV"],
+    "answer": "Type I",
+    "explanation": "Type I borosilicate glass offers high chemical resistance, making it suitable for parenterals."
+  },
+  {
+    "id": "kpsc_q18",
+    "question": "The unequal distribution of color across the surface of a compressed tablet is known as:",
+    "options": ["Mottling", "Capping", "Sticking", "Picking"],
+    "answer": "Mottling",
+    "explanation": "Mottling is a visual defect caused by dye migration during the tablet manufacturing drying process."
+  },
+  {
+    "id": "kpsc_q19",
+    "question": "Which parameter describes the maximum volume of a liquid that can be measured accurately in a pipette?",
+    "options": ["Nominal capacity", "Tolerable limit", "Meniscus value", "Void volume"],
+    "answer": "Nominal capacity",
+    "explanation": "Nominal capacity denotes the maximum fluid volume volume specified on calibrated measuring glassware."
+  },
+  {
+    "id": "kpsc_q20",
+    "question": "The clear, sweetened, hydroalcoholic liquid formulations intended for oral use are:",
+    "options": ["Syrups", "Elixirs", "Linctuses", "Suspensions"],
+    "answer": "Elixirs",
+    "explanation": "Elixirs are hydroalcoholic solutions formulated with sweetening and flavoring agents to dissolve water- and alcohol-soluble drugs."
+  },
+  {
+    "id": "kpsc_q21",
+    "question": "Which mechanism of drug transport across biological membranes requires cellular energy input?",
+    "options": ["Passive diffusion", "Facilitated diffusion", "Active transport", "Endocytosis"],
+    "answer": "Active transport",
+    "explanation": "Active transport systems move solutes against electrochemical gradients using direct energy derived from ATP hydrolysis."
+  },
+  {
+    "id": "kpsc_q22",
+    "question": "The term 'Bioavailability' reflects which two parameters of drug absorption?",
+    "options": ["Rate and extent", "Duration and peak", "Solubility and distribution", "Clearance and half-life"],
+    "answer": "Rate and extent",
+    "explanation": "Bioavailability is defined as the rate and extent to which an active drug ingredient reaches systemic circulation."
+  },
+  {
+    "id": "kpsc_q23",
+    "question": "What is the primary site for the metabolic biotransformation of drugs within the human body?",
+    "options": ["Kidneys", "Liver", "Lungs", "Intestines"],
+    "answer": "Liver",
+    "explanation": "The liver expresses high concentrations of microsomal enzymes, making it the principal site for drug metabolism."
+  },
+  {
+    "id": "kpsc_q24",
+    "question": "An apparent volume of distribution ($V_d$) exceeding the total body water volume implies that the drug is:",
+    "options": ["Highly bound to plasma proteins", "Excreted rapidly", "Highly bound to extravascular tissues", "Confined entirely to vascular space"],
+    "answer": "Highly bound to extravascular tissues",
+    "explanation": "High tissue binding concentrates drugs outside the blood, resulting in a large calculated volume of distribution."
+  },
+  {
+    "id": "kpsc_q25",
+    "question": "Which enzyme acts as the primary target inhibited by nonsteroidal anti-inflammatory drugs (NSAIDs)?",
+    "options": ["Cyclooxygenase", "Lipoxygenase", "Phospholipase A2", "Monoamine oxidase"],
+    "answer": "Cyclooxygenase",
+    "explanation": "NSAIDs exert anti-inflammatory actions by blocking cyclooxygenase (COX) enzymes, stopping prostaglandin synthesis."
+  },
+  {
+    "id": "kpsc_q26",
+    "question": "Which drug functions as a selective Beta-2 adrenergic receptor agonist used in acute asthma attacks?",
+    "options": ["Propranolol", "Salbutamol", "Atenolol", "Metoprolol"],
+    "answer": "Salbutamol",
+    "explanation": "Salbutamol selectively stimulates Beta-2 adrenergic receptors on airway smooth muscles to induce rapid bronchodilation."
+  },
+  {
+    "id": "kpsc_q27",
+    "question": "The specific antidote utilized to treat systemic toxicities arising from an overdose of Digoxin is:",
+    "options": ["Naloxone", "Digoxin Immune Fab", "Protamine sulfate", "Flumazenil"],
+    "answer": "Digoxin Immune Fab",
+    "explanation": "Digoxin Immune Fab consists of antigen-binding fragments that bind to and neutralize circulating digoxin molecules."
+  },
+  {
+    "id": "kpsc_q28",
+    "question": "What is the principal cellular mechanism of action behind the loop diuretic drug Furosemide?",
+    "options": ["Inhibition of Na+/K+/2Cl- cotransporter", "Inhibition of Na+/Cl- symporter", "Aldosterone receptor antagonism", "Carbonic anhydrase inhibition"],
+    "answer": "Inhibition of Na+/K+/2Cl- cotransporter",
+    "explanation": "Furosemide blocks the cotransporter system in the thick ascending limb of the loop of Henle, promoting mineral and water excretion."
+  },
+  {
+    "id": "kpsc_q29",
+    "question": "Which organelle serves as the primary site for cellular ATP production via oxidative phosphorylation?",
+    "options": ["Mitochondria", "Endoplasmic reticulum", "Nucleolus", "Peroxisome"],
+    "answer": "Mitochondria",
+    "explanation": "Mitochondria generate energy through the electron transport chain, earning their reputation as the powerhouses of the cell."
+  },
+  {
+    "id": "kpsc_q30",
+    "question": "Which agent acts as a competitive antagonist at H2 histamine receptors to reduce gastric acid secretion?",
+    "options": ["Cimetidine", "Omeprazole", "Misoprostol", "Sucralfate"],
+    "answer": "Cimetidine",
+    "explanation": "Cimetidine competitively blocks H2 receptors on parietal cells, lowering baseline and stimulated gastric acid release."
+  },
+  {
+    "id": "kpsc_q31",
+    "question": "The cellular mechanism of action behind the cardiotonic effects of Digoxin involves:",
+    "options": ["Inhibition of Na+/K+ ATPase pump", "Activation of Beta-1 receptors", "Calcium channel blockade", "Phosphodiesterase inhibition"],
+    "answer": "Inhibition of Na+/K+ ATPase pump",
+    "explanation": "Inhibiting the Na+/K+ ATPase pump elevates intracellular sodium, slowing the Na+/Ca2+ exchanger and increasing intracellular calcium to boost cardiac contractility."
+  },
+  {
+    "id": "kpsc_q32",
+    "question": "Which amino acid serves as the direct metabolic precursor for the synthesis of catecholamines?",
+    "options": ["Tyrosine", "Tryptophan", "Histidine", "Methionine"],
+    "answer": "Tyrosine",
+    "explanation": "Tyrosine undergoes enzymatic conversion via tyrosine hydroxylase to form L-DOPA, the precursor to dopamine, norepinephrine, and epinephrine."
+  },
+  {
+    "id": "kpsc_q33",
+    "question": "The primary toxicity concern associated with high-dose or chronic Acetaminophen administration is:",
+    "options": ["Centrilobular hepatic necrosis", "Acute interstitial nephritis", "Aplastic anemia", "Gastric ulceration"],
+    "answer": "Centrilobular hepatic necrosis",
+    "explanation": "Depleting glutathione pathways allows the toxic metabolite NAPQI to accumulate, causing free-radical damage and liver cell death."
+  },
+  {
+    "id": "kpsc_q34",
+    "question": "Which chemical component of the bacterial cell envelope is specifically stained by the Gram staining method?",
+    "options": ["Peptidoglycan layer", "Lipopolysaccharide membrane", "Capsular polysaccharide", "Teichoic acid"],
+    "answer": "Peptidoglycan layer",
+    "explanation": "The thick peptidoglycan meshwork of Gram-positive bacteria traps the crystal violet-iodine complex, resisting alcohol discoloration."
+  },
+  {
+    "id": "kpsc_q35",
+    "question": "The biological parameter that describes the volume of plasma completely freed of a drug per unit time is:",
+    "options": ["Clearance", "Volume of distribution", "Half-life", "Bioavailability"],
+    "answer": "Clearance",
+    "explanation": "Clearance quantifies the rate of drug elimination, measuring the volume of biological fluid cleared of the drug over time."
+  },
+  {
+    "id": "kpsc_q36",
+    "question": "Which hormone regulates human basal metabolic rate and is synthesized within the thyroid gland?",
+    "options": ["Thyroxine", "Calcitonin", "Parathyroid hormone", "Thyrotropin"],
+    "answer": "Thyroxine",
+    "explanation": "Thyroxine (T4) regulates systemic cellular oxygen consumption and metabolic activity across tissues."
+  },
+  {
+    "id": "kpsc_q37",
+    "question": "The physical mechanism behind the action of bulk-forming laxatives is:",
+    "options": ["Water absorption and mechanical bowel distension", "Chemical mucosal irritation", "Lubrication of the fecal mass", "Activation of chloride channels"],
+    "answer": "Water absorption and mechanical bowel distension",
+    "explanation": "Bulk laxatives absorb water to expand stool volume, stimulating peristalsis through natural mechanical stretch reflexes."
+  },
+  {
+    "id": "kpsc_q38",
+    "question": "Which equipment is used to achieve uniform particle size reduction through high-velocity fluid attrition?",
+    "options": ["Fluid energy mill", "Hammer mill", "Ball mill", "Roller mill"],
+    "answer": "Fluid energy mill",
+    "explanation": "Fluid energy mills use high-pressure air streams to cause particle-on-particle impact, grinding materials down to micron sizes."
+  },
+  {
+    "id": "kpsc_q39",
+    "question": "The primary site of nutrient and drug absorption within the human gastrointestinal tract is the:",
+    "options": ["Small intestine", "Stomach", "Large intestine", "Duodenum alone"],
+    "answer": "Small intestine",
+    "explanation": "The small intestine's extensive surface area, enhanced by villi and microvilli, makes it highly efficient for systemic absorption."
+  },
+  {
+    "id": "kpsc_q40",
+    "question": "Which drug acts as a selective Beta-1 adrenergic receptor antagonist used to treat hypertension?",
+    "options": ["Atenolol", "Propranolol", "Salbutamol", "Prazosin"],
+    "answer": "Atenolol",
+    "explanation": "Atenolol preferentially blocks cardioselective Beta-1 receptors, lowering heart rate and cardiac output without affecting Beta-2 smooth muscle receptors."
+  },
+  {
+    "id": "kpsc_q41",
+    "question": "The principal enzyme responsible for the metabolic breakdown of acetylcholine at the neuromuscular junction is:",
+    "options": ["Acetylcholinesterase", "Pseudocholinesterase", "Monoamine oxidase", "Catechol-O-methyltransferase"],
+    "answer": "Acetylcholinesterase",
+    "explanation": "Acetylcholinesterase rapidly hydrolyzes acetylcholine into choline and acetate, terminating its transmitter action."
+  },
+  {
+    "id": "kpsc_q42",
+    "question": "The phase of cellular mitosis where chromosomes align along the equatorial plane of the cell is:",
+    "options": ["Metaphase", "Prophase", "Anaphase", "Telophase"],
+    "answer": "Metaphase",
+    "explanation": "During metaphase, spindle fibers pull duplicated chromosomes into a straight line along the cell's center plate."
+  },
+  {
+    "id": "kpsc_q43",
+    "question": "Which adverse drug reaction involves an abnormal, genetically determined response to a drug?",
+    "options": ["Idiosyncrasy", "Anaphylaxis", "Teratogenicity", "Tolerance"],
+    "answer": "Idiosyncrasy",
+    "explanation": "Idiosyncratic reactions are uncommon, unexpected drug responses rooted in individual genetic variations."
+  },
+  {
+    "id": "kpsc_q44",
+    "question": "The instrument used to measure the precise clarity and turbidity of liquid parenteral formulations is a:",
+    "options": ["Nephelometer", "Spectrophotometer", "Refractometer", "Viscometer"],
+    "answer": "Nephelometer",
+    "explanation": "Nephelometers measure light scattered at right angles by suspended particles to detect faint trace contamination or turbidity."
+  },
+  {
+    "id": "kpsc_q45",
+    "question": "Which compound serves as a primary standard in complexometric titrations?",
+    "options": ["Disodium edetate (EDTA)", "Sodium hydroxide", "Potassium permanganate", "Silver nitrate"],
+    "answer": "Disodium edetate (EDTA)",
+    "explanation": "Disodium EDTA forms stable stoichiometric chelate complexes with metal ions, serving as a reliable standard tool."
+  },
+  {
+    "id": "kpsc_q46",
+    "question": "The primary site of erythropoiesis in adult humans is the:",
+    "options": ["Red bone marrow", "Spleen", "Liver", "Yellow bone marrow"],
+    "answer": "Red bone marrow",
+    "explanation": "Adult red blood cell production takes place in the red bone marrow of flat bones like the sternum and pelvis."
+  },
+  {
+    "id": "kpsc_q47",
+    "question": "Which drug acts as a competitive inhibitor of HMG-CoA reductase to lower blood cholesterol levels?",
+    "options": ["Atorvastatin", "Gemfibrozil", "Ezetimibe", "Cholestyramine"],
+    "answer": "Atorvastatin",
+    "explanation": "Statins inhibit HMG-CoA reductase, the rate-limiting enzyme in cholesterol synthesis, forcing liver cells to pull more LDL from the blood."
+  },
+  {
+    "id": "kpsc_q48",
+    "question": "Which mechanism drives the concentration-dependent sterilization effect of autoclaving?",
+    "options": ["Moist heat protein coagulation", "Dry heat oxidation", "Alkylating DNA strand breakages", "Membrane mechanical disruption"],
+    "answer": "Moist heat protein coagulation",
+    "explanation": "Autoclaving uses saturated steam under pressure to quickly transfer heat energy, denaturing structural microbial proteins."
+  },
+   {
+    "id": "kpsc_q49",
+    "question": "A formulation defect where a tablet splits into distinct horizontal layers is known as:",
+    "options": ["Lamination", "Capping", "Chipping", "Mottling"],
+    "answer": "Lamination",
+    "explanation": "Lamination occurs when a tablet splits horizontally into multiple layers, often due to trapped air or poor internal granule cohesion."
+  },
+  {
+    "id": "kpsc_q50",
+    "question": "Which organ serves as the main site for the first-pass metabolism of orally administered drugs?",
+    "options": ["Liver", "Stomach", "Kidneys", "Spleen"],
+    "answer": "Liver",
+    "explanation": "Drugs absorbed from the gastrointestinal tract travel through the portal vein directly to the liver, where they can be heavily metabolized before reaching the rest of the body."
+  },
+  {
+    "id": "kpsc_q51",
+    "question": "The protective layer that prevents a tablet from dissolving in the stomach's acidic environment is called an:",
+    "options": ["Enteric coating", "Sugar coating", "Film coating", "Gelatin coating"],
+    "answer": "Enteric coating",
+    "explanation": "Enteric coatings use polymers like cellulose acetate phthalate that stay intact in acidic environments but dissolve in the higher pH of the small intestine."
+  },
+  {
+    "id": "kpsc_q52",
+    "question": "Which cellular component contains digestive enzymes responsible for breaking down cellular waste?",
+    "options": ["Lysosome", "Ribosome", "Centrosome", "Peroxisome"],
+    "answer": "Lysosome",
+    "explanation": "Lysosomes carry acid hydrolases that break down foreign materials, worn-out organelles, and cellular waste."
+  },
+  {
+    "id": "kpsc_q53",
+    "question": "The primary binding protein in human plasma that carries most acidic drugs is:",
+    "options": ["Albumin", "Alpha-1 acid glycoprotein", "Globulin", "Hemoglobin"],
+    "answer": "Albumin",
+    "explanation": "Human serum albumin is the most abundant plasma protein and features specialized binding sites for acidic drugs like aspirin and warfarin."
   },
   {
-    "id": 31,
-    "question": "An example for an anthracene glycoside",
-    "options": ["Purpurea glycoside", "Diosgenin", "Cantharidin", "Sennoside"],
-    "correct_answer": "Sennoside",
-    "explanation": "Sennosides (found in Senna leaves) are well-known anthraquinone/anthracene glycosides used primarily as stimulant laxatives."
-  },
-  {
-    "id": 32,
-    "question": "Hydrogen Peroxide IP used as antiseptic contains",
-    "options": ["100% w/v of Hydrogen peroxide", "25% w/v of Hydrogen Peroxide", "6% w/v of Hydrogen Peroxide", "27% w/v of Hydrogen Peroxide"],
-    "correct_answer": "6% w/v of Hydrogen Peroxide",
-    "explanation": "Hydrogen Peroxide Solution IP (commonly called 20-volume hydrogen peroxide) contains roughly 6% w/v of H2O2."
-  },
-  {
-    "id": 33,
-    "question": "The agent used as a radio-opaque contrast medium:",
-    "options": ["Radioactive Sodium Iodide", "Colloidal Gold Injection", "Barium Sulphate", "Sodium Iodo hippurate"],
-    "correct_answer": "Barium Sulphate",
-    "explanation": "Barium sulphate is an insoluble, heavy metal compound widely used as a radio-opaque contrast agent for X-ray imaging of the gastrointestinal tract (Barium meal)."
+    "id": "kpsc_q54",
+    "question": "Which cranial nerve carries visual information from the retina to the brain?",
+    "options": ["Optic nerve", "Olfactory nerve", "Oculomotor nerve", "Vagus nerve"],
+    "answer": "Optic nerve",
+    "explanation": "The optic nerve (Cranial Nerve II) transmits visual sensory signals from the retina to the brain's visual cortex."
   },
-  {
-    "id": 34,
-    "question": "When an hypotonic solution is injected into blood stream, causes",
-    "options": ["Haemolysis", "Shrinkage of blood cells", "Sclerosis of veins", "No characteristic change"],
-    "correct_answer": "Haemolysis",
-    "explanation": "An hypotonic solution has lower osmotic pressure than intracellular fluid. Water diffuses into red blood cells via osmosis, causing them to swell and burst (haemolysis)."
-  },
   {
-    "id": 35,
-    "question": "Sodium lauryl Sulphate is",
-    "options": ["Cationic surface active agents", "Ampholytic surface active agents", "Nonionic surface active agents", "Anionic surface active agents"],
-    "correct_answer": "Anionic surface active agents",
-    "explanation": "Sodium Lauryl Sulphate (SLS) is a classic anionic surfactant containing a hydrophilic sulphate head group carrying a negative charge."
-  },
+    "id": "kpsc_q55",
+    "question": "Which drug is used as an antidote to reverse the effects of an opioid overdose?",
+    "options": ["Naloxone", "Flumazenil", "Atropine", "Naltrexone"],
+    "answer": "Naloxone",
+    "explanation": "Naloxone is a competitive opioid receptor antagonist that rapidly reverses respiratory depression caused by opioid overdoses."
+  },
+  {
+    "id": "kpsc_q56",
+    "question": "The process of tracking a drug's safety profile after it has been approved and hits the market is called:",
+    "options": ["Pharmacovigilance", "Clinical Trial Phase I", "Bioequivalence study", "Pharmacokinetics"],
+    "answer": "Pharmacovigilance",
+    "explanation": "Pharmacovigilance focuses on detecting, assessing, understanding, and preventing adverse drug effects once a medication is available to the public."
+  },
+  {
+    "id": "kpsc_q57",
+    "question": "Which component of the eye regulates the amount of light entering the pupil?",
+    "options": ["Iris", "Cornea", "Sclera", "Lens"],
+    "answer": "Iris",
+    "explanation": "The iris contains smooth muscle fibers that contract or dilate the pupil to adjust how much light enters the eye."
+  },
+  {
+    "id": "kpsc_q58",
+    "question": "Which antibiotic is known for causing 'Gray Baby Syndrome' if given to newborns with immature liver enzymes?",
+    "options": ["Chloramphenicol", "Tetracycline", "Clindamycin", "Vancomycin"],
+    "answer": "Chloramphenicol",
+    "explanation": "Newborns lack the glucuronide conjugation enzymes needed to metabolize chloramphenicol, leading to toxic drug buildup and cardiovascular collapse."
+  },
   {
-    "id": 36,
-    "question": "A toxoid vaccine is:",
-    "options": ["Killed bacterial suspension", "Live bacterial suspension", "Live viral Vaccine", "Toxins that have been incubated with formalin"],
-    "correct_answer": "Toxins that have been incubated with formalin",
-    "explanation": "Toxoids are bacterial exotoxins whose toxicity has been inactivated by chemical treatment (e.g., formalin/formaldehyde) while retaining their immunogenicity."
-  },
+    "id": "kpsc_q59",
+    "question": "What is the primary purpose of adding a binder to a tablet formulation?",
+    "options": ["To ensure granules hold together during compression", "To help the tablet break apart in water", "To improve powder flow", "To color the tablet"],
+    "answer": "To ensure granules hold together during compression",
+    "explanation": "Binders provide the adhesive force needed to turn loose powders into stable granules that stay intact after compression."
+  },
+  {
+    "id": "kpsc_q60",
+    "question": "Which organ filters metabolic waste from the blood and regulates water balance?",
+    "options": ["Kidney", "Liver", "Spleen", "Pancreas"],
+    "answer": "Kidney",
+    "explanation": "The kidneys filter plasma, excrete metabolic wastes like urea, and maintain electrolyte and water balance."
+  },
   {
-    "id": 37,
-    "question": "0.1gms contains:",
-    "options": ["1000 mg", "100 mg", "10 mg", "1 mg"],
-    "correct_answer": "100 mg",
-    "explanation": "Since 1 gram = 1000 milligrams, 0.1 gram = 0.1 * 1000 = 100 mg."
-  },
-  {
-    "id": 38,
-    "question": "Volume of 95% alcohol required to prepare 500 ml of 20% alcohol is:",
-    "options": ["80 ml", "50 ml", "105 ml", "150 ml"],
-    "correct_answer": "105 ml",
-    "explanation": "Using the equation C1*V1 = C2*V2: 95% * V1 = 20% * 500 ml -> V1 = 10000 / 95 = 105.26 ml, rounded to 105 ml."
-  },
-  {
-    "id": 39,
-    "question": "Which among the following is a blood coagulation factor:",
-    "options": ["Sodium", "Calcium", "Potassium", "Manganese"],
-    "correct_answer": "Calcium",
-    "explanation": "Calcium ions represent Coagulation Factor IV, which is essential for several steps of both the intrinsic and extrinsic blood clotting pathways."
-  },
-  {
-    "id": 40,
-    "question": "An example for a drug that undergoes extensive first pass metabolism:",
-    "options": ["Testosterone", "Phenobarbitone", "Tolbutamide", "Theophylline"],
-    "correct_answer": "Testosterone",
-    "explanation": "Testosterone undergoes massive hepatic degradation during its first pass through the liver, making oral bioavailability extremely low and necessitating alternative administration routes."
-  },
-  {
-    "id": 41,
-    "question": "Bacillus Calmette Guerin Vaccine is",
-    "options": [
-      "Suspension of living cells of a strain of Mycobacterium tuberculosis",
-      "Suspension of living cells of a strain of Bordetella pertusis",
-      "Suspension of living cells of a strain of Salmonella typhi",
-      "Suspension of living cells of a strain of Vibrio cholerae"
-    ],
-    "correct_answer": "Suspension of living cells of a strain of Mycobacterium tuberculosis",
-    "explanation": "BCG vaccine contains live attenuated strains derived from Mycobacterium bovis (closely matching M. tuberculosis) used to provide protection against tuberculosis."
-  },
+    "id": "kpsc_q61",
+    "question": "Which drug serves as a standard treatment to reverse an overdose of the blood thinner heparin?",
+    "options": ["Protamine sulfate", "Vitamin K", "Aminocaproic acid", "Flumazenil"],
+    "answer": "Protamine sulfate",
+    "explanation": "Protamine sulfate is a highly alkaline protein that binds to strongly acidic heparin, forming a stable, inactive chemical complex."
+  },
+  {
+    "id": "kpsc_q62",
+    "question": "Which piece of equipment uses centrifugal force to separate solids from liquids?",
+    "options": ["Centrifuge", "Fluidized bed dryer", "Colloid mill", "Rotary evaporator"],
+    "answer": "Centrifuge",
+    "explanation": "Centrifuges spin mixtures at high speeds, using centrifugal force to separate components based on their density differences."
+  },
   {
-    "id": 42,
-    "question": "The toxic protein present in castor oil is",
-    "options": ["Ricinoleic acid", "Ricin", "Isoricinoleic acid", "Linoleic acid"],
-    "correct_answer": "Ricin",
-    "explanation": "Ricin is a highly potent, toxic ribosomal-inactivating plant glycoprotein found natively in the seeds of the castor oil plant (Ricinus communis)."
-  },
-  {
-    "id": 43,
-    "question": "Calamine IP is",
-    "options": ["Aluminium silicate with ferric oxide", "Magnesium silicate with ferric oxide", "Calcium oxide with ferric oxide", "Zinc oxde with ferric oxide"],
-    "correct_answer": "Zinc oxde with ferric oxide",
-    "explanation": "Calamine IP consists mostly of Zinc Oxide (ZnO) with a small proportion (about 0.5%) of ferric oxide (Fe2O3), which lends the powder its characteristic pink color."
-  },
-  {
-    "id": 44,
-    "question": "Which among the following statement is false with respect to NaCl Injection I P",
-    "options": [
-      "Contains 0.9% w/v sterile solution of Sodium Chloride",
-      "pH of the solution is between 4.5 & 7.0",
-      "Contains added antimicrobial agents or preservatives",
-      "Contains approximately 150 mmol of Sodium ions"
-    ],
-    "correct_answer": "Contains added antimicrobial agents or preservatives",
-    "explanation": "Intravenous normal saline infusions must be preservative-free to avoid systemic chemical toxicity when large volumes are administered."
-  },
-  {
-    "id": 45,
-    "question": "Which one of the following is used as an antimicrobial preservative:",
-    "options": ["Propylene glycol", "Procaine hydrochloride", "Propyl hydroxy benzoate", "Sodium hydrogen carbonate"],
-    "correct_answer": "Propyl hydroxy benzoate",
-    "explanation": "Propyl hydroxy benzoate (Propylparaben) is commonly utilized as an antimicrobial preservative across pharmaceuticals, cosmetics, and food products."
-  },
-  {
-    "id": 46,
-    "question": "Cotrimoxazole tablet contains:",
-    "options": [
-      "5 parts of Cortisone acetate and 1 parts of trimethoprim",
-      "5 parts of Sulphamethoxaole and 1 parts of trimethoprim",
-      "5 parts of Sulphasalazine and 1 parts of trimethoprim",
-      "5 parts of Cloxacillin and 1 parts of trimethoprim"
-    ],
-    "correct_answer": "5 parts of Sulphamethoxaole and 1 parts of trimethoprim",
-    "explanation": "Cotrimoxazole is a synergistic fixed-dose combination combining Sulphamethoxazole and Trimethoprim in a strict 5:1 fixed structural ratio."
-  },
-  {
-    "id": 47,
-    "question": "Which among the following is used as a diuretic:",
-    "options": ["Tribulus terrestris", "Claviceps purpurea", "Cyamopsis tetragonolobus", "Commiphora molmol"],
-    "correct_answer": "Tribulus terrestris",
-    "explanation": "Tribulus terrestris (Gokhru) is well established in traditional medicine systems as a natural diuretic and urinary tract support herb."
-  },
-  {
-    "id": 48,
-    "question": "Potassium permanganate is an example for:",
-    "options": ["acidifying agent", "alkalising agent", "reducing agent", "oxidising agent"],
-    "correct_answer": "oxidising agent",
-    "explanation": "Potassium permanganate (KMnO4) is a highly powerful oxidizing chemical agent widely deployed topically for its antimicrobial and astringent actions."
-  },
-  {
-    "id": 49,
-    "question": "Lugols Solution is:",
-    "options": [
-      "2.5%w/v of Iodine and 2.5% w/v of potassium iodide in water",
-      "10.0%w/v of Iodine and 6.0% w/v pf potassium iodide in water",
-      "5.0%w/v of Iodine and 10.0% w/v of potassium iodide in water",
-      "2.0% w/v of Iodine and 2.4 % w/v of Sodium iodide in water"
-    ],
-    "correct_answer": "5.0%w/v of Iodine and 10.0% w/v of potassium iodide in water",
-    "explanation": "Lugol's iodine solution is an aqueous pharmaceutical solution containing 5% w/v elemental iodine complexed with 10% w/v potassium iodide."
-  },
-  {
-    "id": 50,
-    "question": "Ammonium Chloride is used as:",
-    "options": ["Alkalising agent", "Astringent", "Expectorant", "All the above"],
-    "correct_answer": "Expectorant",
-    "explanation": "Ammonium chloride acts as a reflex expectorant by irritating the gastric mucosa, which reflexively stimulates respiratory tract fluid secretion."
-  },
-  {
-    "id": 51,
-    "question": "An antidote which can be used in cyanide poisoning:",
-    "options": ["Sodium bicarbonate", "Sodium nitrite", "Dimercaprol", "Sodium bi sulphite"],
-    "correct_answer": "Sodium nitrite",
-    "explanation": "Sodium nitrite is administered to convert hemoglobin into methemoglobin, which binds securely with cyanide ions to shield cytochrome oxidase enzymes."
-  },
-  {
-    "id": 52,
-    "question": "Colloidal dispersion of liquids or solids in gases are:",
-    "options": ["Aerosols", "Emulsion", "Creams", "Suspensions"],
-    "correct_answer": "Aerosols",
-    "explanation": "An aerosol is defined structurally as a colloidal system in which liquid droplets or fine solid particles are suspended uniformly within a gaseous medium."
-  },
-  {
-    "id": 53,
-    "question": "An example for a drug with anti-hypertensive action",
-    "options": ["Rhubarb", "Vasaka", "Liquorice", "Rauwolfia"],
-    "correct_answer": "Rauwolfia",
-    "explanation": "Rauwolfia (Rauvolfia serpentina) contains reserpine, an alkaloid that depletes vesicular monoamines, producing strong antihypertensive properties."
-  },
-  {
-    "id": 54,
-    "question": "Restricted licences in Forms 20-A and 21-A are issued for:",
-    "options": [
-      "Narcotic and Psychotropic substances",
-      "Pethidine and related drugs",
-      "wholesale dealing of drugs which does not require the supervision of a registered pharmacist",
-      "drugs specified in Schedule X"
-    ],
-    "correct_answer": "wholesale dealing of drugs which does not require the supervision of a registered pharmacist",
-    "explanation": "Forms 20-A and 21-A represent restricted licenses granted for retail or wholesale distributions that bypass full-time registered pharmacist mandates."
-  },
-  {
-    "id": 55,
-    "question": "The Schedule in Drugs and Cosmetics Act which specifies that drugs shall not be sold by retail except on and in accordance with the prescription of a Registered Medical Practitioner:",
-    "options": ["Schedule K", "Schedule G", "Schedule J", "Schedule H"],
-    "correct_answer": "Schedule H",
-    "explanation": "Schedule H handles prescription-only compounds requiring structured handling under authorized Medical practitioner guidance."
-  },
-  {
-    "id": 56,
-    "question": "As per Drugs and Cosmetics Act 1945, the term 'Drugstore' refers to",
-    "options": [
-      "Licenses where the service of registered pharmacist is employed but donot maintain a pharmacy",
-      "Licenses who employ the service of registered pharmacist and maintain a pharmacy for compounding against prescription",
-      "Licenses where drugs are temporarily stored",
-      "Licenses where service of a qualified person is not required"
-    ],
-    "correct_answer": "Licenses where service of a qualified person is not required",
-    "explanation": "Historically, under the Act's definitions, a 'Drugstore' handles pre-packaged pharmaceuticals and does not strictly demand an active pharmacist setup for compound mixes."
-  },
-  {
-    "id": 57,
-    "question": "Which among the following is a prodrug:",
-    "options": ["Levodopa", "Indomethacin", "Paracetamol", "Diphenhydramine"],
-    "correct_answer": "Levodopa",
-    "explanation": "Levodopa is an inactive precursor that crosses the blood-brain barrier and undergoes enzymatic conversion into active dopamine via DOPA decarboxylase."
-  },
-  {
-    "id": 58,
-    "question": "Leucovorin rescue is given to reduce the toxic effects of",
-    "options": ["Methotrexate", "Cyclophosphamide", "Melphalan", "Chlorambucil"],
-    "correct_answer": "Methotrexate",
-    "explanation": "Leucovorin (folinic acid) acts as a rescue therapy by bypassing dihydrofolate reductase inhibition, preserving healthy cells from Methotrexate toxicity."
-  },
-  {
-    "id": 59,
-    "question": "The antibiotic that acts by inhibiting bacterial protein synthesis by binding to the 30s ribosomal subunits:",
-    "options": ["Chloramphenicol", "Doxycyclin", "Azithromycin", "Vancomycin"],
-    "correct_answer": "Doxycyclin",
-    "explanation": "Doxycycline is a tetracyclic antibiotic that targets the bacterial 30S ribosomal unit, blocking aminoacyl-tRNA attachment to stop protein chains."
-  },
-  {
-    "id": 60,
-    "question": "Diethyl carbamazine is the drug of choice in the treatment of:",
-    "options": ["Epilepsy", "Filarial infection", "Hookworm infestation", "Malaria"],
-    "correct_answer": "Filarial infection",
-    "explanation": "Diethylcarbamazine (DEC) serves as the primary standard anti-helminthic therapeutic weapon for treating lymphatic filariasis."
-  },
-  {
-    "id": 61,
-    "question": "Organophosphorous poisoning is treated with",
-    "options": ["Acetylcholine", "Atropine", "Pentazocine", "Methacholine"],
-    "correct_answer": "Atropine",
-    "explanation": "Atropine is a powerful competitive muscarinic antagonist used to counteract toxic life-threatening cholinergic excesses seen in organophosphate exposures."
-  },
-  {
-    "id": 62,
-    "question": "Benzodiazepine receptor antagonist:",
-    "options": ["Flumazenil", "Atropine", "Pentazocine", "Phentolamine"],
-    "correct_answer": "Flumazenil",
-    "explanation": "Flumazenil is a specific competitive antagonist at the benzodiazepine binding site on the GABA-A receptor complex, reversing sedation or overdoses."
-  },
-  {
-    "id": 63,
-    "question": "Diabetes insipidus is due to deficiency of :",
-    "options": ["Oxytocin", "Insulin", "Vasopressin", "Aldosterone"],
-    "correct_answer": "Vasopressin",
-    "explanation": "Central diabetes insipidus results directly from insufficient secretion or production of Vasopressin (Antidiuretic Hormone / ADH)."
+    "id": "kpsc_q63",
+    "question": "What is the main side effect associated with taking aluminum-based antacids?",
+    "options": ["Constipation", "Diarrhea", "Kidney stones", "Hypertension"],
+    "answer": "Constipation",
+    "explanation": "Aluminum ions relax gastric smooth muscle and slow intestinal transit times, frequently leading to constipation."
   },
-  {
-    "id": 64,
-    "question": "Epsom Salt is",
-    "options": ["Copper Sulphate", "Magnesium Sulphate", "Ferrous Sulphate", "Calcium Sulphate"],
-    "correct_answer": "Magnesium Sulphate",
-    "explanation": "Epsom salt is the common name designated for magnesium sulphate heptahydrate (MgSO4 �� 7H2O)."
+  {
+    "id": "kpsc_q64",
+    "question": "Which hormone lowers blood glucose levels by helping cells absorb sugar from the bloodstream?",
+    "options": ["Insulin", "Glucagon", "Somatostatin", "Cortisol"],
+    "answer": "Insulin",
+    "explanation": "Insulin, secreted by pancreatic beta cells, signals skeletal muscle and fat cells to absorb glucose from the blood."
   },
   {
-    "id": 65,
-    "question": "In combination antacids, Magnesium salts are added:",
-    "options": [
-      "for immediate onset of action",
-      "to decrease the production of acid in GIT",
-      "to enhance taste and appearance",
-      "for laxative action"
-    ],
-    "correct_answer": "for laxative action",
-    "explanation": "Magnesium antacids have laxative actions that effectively balance the constipating tendencies of aluminum or calcium antacids when paired together."
+    "id": "kpsc_q65",
+    "question": "A cell that destroys bone tissue to help remodel and maintain bone structure is called an:",
+    "options": ["Osteoclast", "Osteoblast", "Osteocyte", "Chondrocyte"],
+    "answer": "Osteoclast",
+    "explanation": "Osteoclasts dissolve bone minerals and break down old matrix material during bone remodeling."
   },
   {
-    "id": 66,
-    "question": "Directly observed treatment, Short course (DOTS) refers to:",
-    "options": [
-      "AIDS control strategy of Govt of India",
-      "Strategic action plan for Malarial control in India",
-      "Tuberculosis control strategy, recommended by WHO",
-      "part of National Filaria control program"
-    ],
-    "correct_answer": "Tuberculosis control strategy, recommended by WHO",
-    "explanation": "DOTS is the globally recognized foundational public health platform recommended by WHO to ensure compliance and track tuberculosis eradication steps."
+    "id": "kpsc_q66",
+    "question": "Which type of water is specifically used to manufacture sterile parenterals?",
+    "options": ["Water for Injection", "Purified water", "Distilled water", "Deionized water"],
+    "answer": "Water for Injection",
+    "explanation": "Water for Injection (WFI) is highly purified water free of volatile organic carbon and pyrogens, serving as the standard vehicle for injectables."
   },
   {
-    "id": 67,
-    "question": "An Adverse effect of Clozapine",
-    "options": ["Agranulocytosis", "Nephrotoxicity", "Hepatotoxicity", "Respiratory depression"],
-    "correct_answer": "Agranulocytosis",
-    "explanation": "Clozapine can induce dangerous bone marrow suppression leading to severe agranulocytosis, requiring intensive regular white blood cell count monitoring."
+    "id": "kpsc_q67",
+    "question": "Which drug is used to reverse a benzodiazepine overdose?",
+    "options": ["Flumazenil", "Naloxone", "Atropine", "Physostigmine"],
+    "answer": "Flumazenil",
+    "explanation": "Flumazenil acts as a competitive antagonist at the benzodiazepine receptor on the GABA-A complex, reversing sedative effects."
   },
   {
-    "id": 68,
-    "question": "Antixerophthalmic vitamin is",
-    "options": ["Vitamin E", "Vitamin D", "Vitamin B", "Vitamin A"],
-    "correct_answer": "Vitamin A",
-    "explanation": "Vitamin A is widely designated as the antixerophthalmic factor due to its essential clinical role in preventing dry eye conditions and night blindness."
+    "id": "kpsc_q68",
+    "question": "What is the primary function of a lubricant in tablet manufacturing?",
+    "options": ["To reduce friction between the tablet and the die wall during ejection", "To help the tablet dissolve faster", "To stick powders together", "To improve color uniformity"],
+    "answer": "To reduce friction between the tablet and the die wall during ejection",
+    "explanation": "Lubricants like magnesium stearate form a thin layer over granules, making it easier to eject the compressed tablet from the die cavity."
   },
   {
-    "id": 69,
-    "question": "Lanolin is",
-    "options": ["Beeswax", "Woolfat", "Paraffin wax", "Borax"],
-    "correct_answer": "Woolfat",
-    "explanation": "Lanolin is the purified, fat-like substance obtained from the wool of sheep (Ovis aries), widely applied as an emollient base."
+    "id": "kpsc_q69",
+    "question": "Which component of the nervous system is responsible for the 'fight-or-flight' survival response?",
+    "options": ["Sympathetic nervous system", "Parasympathetic nervous system", "Central nervous system", "Somatic nervous system"],
+    "answer": "Sympathetic nervous system",
+    "explanation": "The sympathetic nervous system accelerates heart rate, dilates airways, and shifts blood flow to muscles during stressful situations."
   },
   {
-    "id": 70,
-    "question": "Ratio of oil:water:gum for preparing an emulsion using volatile oil:",
-    "options": ["2:2:1", "4:2:1", "3:2:1", "1:1:2"],
-    "correct_answer": "2:2:1",
-    "explanation": "For manufacturing stable primary emulsions, fixed oils follow a 4:2:1 ratio, while volatile oils demand a specific 2:2:1 ratio."
+    "id": "kpsc_q70",
+    "question": "Which analytical technique separates mixtures based on how components distribute between a stationary phase and a mobile phase?",
+    "options": ["Chromatography", "Spectrophotometry", "Titration", "Electrophoresis"],
+    "answer": "Chromatography",
+    "explanation": "Chromatography relies on a mobile phase moving across a stationary phase, separating compounds based on their unique distribution coefficients."
   },
   {
-    "id": 71,
-    "question": "Pyridoxine is",
-    "options": ["Vitamin B 1", "Vitamin B 2", "Vitamin B 6", "Folic acid"],
-    "correct_answer": "Vitamin B 6",
-    "explanation": "Pyridoxine is the biochemical descriptive title assigned within water-soluble vitamin groups to Vitamin B6."
+    "id": "kpsc_q71",
+    "question": "The minimum educational requirement to register as a pharmacist under the Indian Pharmacy Act is:",
+    "options": ["Diploma in Pharmacy", "Bachelor of Pharmacy", "Doctor of Pharmacy", "Master of Pharmacy"],
+    "answer": "Diploma in Pharmacy",
+    "explanation": "Completing a basic Diploma in Pharmacy (D.Pharm) from a PCI-approved institution fulfills the baseline registration requirement."
   },
   {
-    "id": 72,
-    "question": "The latin term 'Oris' denotes",
-    "options": ["to mouth", "Ever hour", "when necessary", "at bed time"],
-    "correct_answer": "to mouth",
-    "explanation": "The Latin term 'os, oris' means mouth; in prescription nomenclature, it dictates routes targeting mouth tissue locations."
+    "id": "kpsc_q72",
+    "question": "Which technique removes pyrogenic contaminants from glassware through heat destruction?",
+    "options": ["Dry heat baking at 250°C", "Autoclaving at 121°C", "Ethylene oxide exposure", "UV irradiation"],
+    "answer": "Dry heat baking at 250°C",
+    "explanation": "Pyrogens are highly heat-stable and require prolonged exposure to dry heat (e.g., 250°C for 30–45 minutes) for complete destruction."
   },
   {
-    "id": 73,
-    "question": "Carbonic anhydrase inhibitor",
-    "options": ["Ethacrynic acid", "Chlorothiazide", "Acetazolamide", "Chlorothiazide"],
-    "correct_answer": "Acetazolamide",
-    "explanation": "Acetazolamide blocks carbonic anhydrase enzymes in proximal tubules, decreasing bicarbonate recovery and causing mild alkaline diuresis."
+    "id": "kpsc_q73",
+    "question": "An emulsion system containing droplets under 0.1 micrometers that appears translucent is a:",
+    "options": ["Microemulsion", "Macroemulsion", "Multiple emulsion", "Coarse emulsion"],
+    "answer": "Microemulsion",
+    "explanation": "Microemulsions are thermodynamically stable, clear systems featuring droplets small enough to let light pass through without significant scattering."
   },
   {
-    "id": 74,
-    "question": "Which one among the following has a phenanthrene nucleus:",
-    "options": ["Pentazocine", "Trifluperazine", "Promethazine", "Morphine"],
-    "correct_answer": "Morphine",
-    "explanation": "Morphine consists structurally of a complex, distinct fused rings system featuring a partially hydrogenated phenanthrene core."
+    "id": "kpsc_q74",
+    "question": "Which biological fluid parameters are matched during the formulation of isotonic ophthalmic solutions?",
+    "options": ["Osmotic pressure", "pH index", "Viscosity", "Surface tension"],
+    "answer": "Osmotic pressure",
+    "explanation": "Isotonicity requires adjusting a solution's solute concentration to match the osmotic pressure of natural lacrimal fluid, minimizing eye irritation."
   },
   {
-    "id": 75,
-    "question": "2 Acetoxy benzoic acid is:",
-    "options": ["Paraben", "Aspirin", "PABA", "Benzocaine"],
-    "correct_answer": "Aspirin",
-    "explanation": "Acetylsalicylic acid, widely known across commercial spaces as Aspirin, is chemically indexed as 2-acetoxybenzoic acid."
+    "id": "kpsc_q75",
+    "question": "Under the Drugs and Cosmetics Act, the operational standards for manufacturing medical devices are dictated by:",
+    "options": ["Schedule M3", "Schedule M", "Schedule N", "Schedule K"],
+    "answer": "Schedule M3",
+    "explanation": "Schedule M3 defines the quality systems and Good Manufacturing Practices (GMP) required for producing sterile medical devices."
   },
   {
-    "id": 76,
-    "question": "An agent used to delay the renal excretion of penicillins",
-    "options": ["Protamine sulphate", "Procaine", "Propylene glycol", "Probenecid"],
-    "correct_answer": "Probenecid",
-    "explanation": "Probenecid competitively inhibits renal organic anion transporters, lowering the secretion clearance of Penicillin to prolong its plasma life."
+    "id": "kpsc_q76",
+    "question": "Which non-nutritive sweetener is commonly used in diabetic syrup formulations?",
+    "options": ["Saccharin sodium", "Sucrose", "Sorbitol", "Dextrose"],
+    "answer": "Saccharin sodium",
+    "explanation": "Saccharin sodium provides high sweetening power without affecting blood glucose levels, making it ideal for sugar-free liquid formulations."
   },
   {
-    "id": 77,
-    "question": "An antidote for warfarin toxicity/overdose",
-    "options": ["Protamine", "Dimercaprol", "Penicillamine", "Vitamin K"],
-    "correct_answer": "Vitamin K",
-    "explanation": "Warfarin works by inhibiting Vitamin K epoxide reductase; administering therapeutic Vitamin K overrides this blocks to restore clotting factor synthesis."
+    "id": "kpsc_q77",
+    "question": "Under the Drugs and Cosmetics Act, list of prescription-only drugs that must be sold exclusively against a registered practitioner's prescription are found under:",
+    "options": ["Schedule H", "Schedule G", "Schedule X", "Schedule X and H"],
+    "answer": "Schedule H",
+    "explanation": "Schedule H dictates the labeling and strict prescription-only retail dispensing mandates for the majority of therapeutic drugs."
   },
   {
-    "id": 78,
-    "question": "An ingredient of anticoagulant solution used for storage of whole blood",
-    "options": ["Anhydrous citric acid", "Anhydrous benzoic acid", "Anhydrous Tartaric acid", "Ascorbic acid"],
-    "correct_answer": "Anhydrous citric acid",
-    "explanation": "Citric acid formulations (e.g., ACD/CPD bags) act as vital anticoagulants for whole blood storage by chelating free calcium ions."
+    "id": "kpsc_q78",
+    "question": "The legal requirement for the space and infrastructure needed to open a retail pharmacy business is governed by:",
+    "options": ["Schedule N", "Schedule M", "Schedule P", "Schedule X"],
+    "answer": "Schedule N",
+    "explanation": "Schedule N details the minimal operational equipment, reference books, and floor space needed to run a professional pharmacy shop."
   },
   {
-    "id": 79,
-    "question": "Valproic acid is used as an",
-    "options": ["Analgesic", "Antiepileptic", "Anti-inflammatory", "Diuretic"],
-    "correct_answer": "Antiepileptic",
-    "explanation": "Valproic acid blocks voltage-gated sodium channels and elevates GABA concentrations, making it a versatile broad-spectrum antiepileptic."
+    "id": "kpsc_q79",
+    "question": "Which scheduled category under the Drugs and Cosmetics Act sets the standards for manufacturing cosmetics?",
+    "options": ["Schedule S", "Schedule M", "Schedule O", "Schedule R"],
+    "answer": "Schedule S",
+    "explanation": "Schedule S outlines the exact standards, ingredients, and safety requirements for manufacturing cosmetic products in India."
   },
   {
-    "id": 80,
-    "question": "All the following General anaesthetics are administered intravenously except:",
-    "options": ["Ketamine", "Propofol", "Halothane", "Thiopentone Sodium"],
-    "correct_answer": "Halothane",
-    "explanation": "Halothane is a volatile halogenated hydrocarbon fluid administered exclusively via inhalation vaporizers into respiratory loops."
+    "id": "kpsc_q80",
+    "question": "Which schedule under the Drugs and Cosmetics Act details the list of poisonous substances governed by specific storage rules?",
+    "options": ["Schedule E", "Schedule G", "Schedule H", "Schedule X"],
+    "answer": "Schedule E",
+    "explanation": "Schedule E lists poisonous substances under the Ayurvedic, Siddha, and Unani systems, requiring clear caution labels."
   },
   {
-    "id": 81,
-    "question": "Clavulanic acid is given along with amoxycillin to",
-    "options": ["decrease excretion", "avoid first pass metabolism", "prevent drug resistance", "enhance oral absorption"],
-    "correct_answer": "prevent drug resistance",
-    "explanation": "Clavulanic acid acts as a suicide inhibitor of beta-lactamase enzymes, safeguarding Amoxicillin from degradation and overcoming resistance pathways."
+    "id": "kpsc_q81",
+    "question": "The principal site of the metabolic degradation of local anesthetics of the ester type is:",
+    "options": ["Plasma", "Liver", "Kidney", "Lungs"],
+    "answer": "Plasma",
+    "explanation": "Ester-type local anesthetics are rapidly hydrolyzed by pseudocholinesterase enzymes present directly in the plasma."
   },
   {
-    "id": 82,
-    "question": "Carbidopa is used for the treatment of parkinsonism because it",
-    "options": ["crosses blood brain barrier", "decrease monoamine oxidase", "inhibits L aminoacid decarboxylase", "a COMT inhibitor"],
-    "correct_answer": "inhibits L aminoacid decarboxylase",
-    "explanation": "Carbidopa is a peripheral aromatic L-amino acid decarboxylase inhibitor that does not cross the BBB, preventing peripheral conversion of Levodopa."
+    "id": "kpsc_q82",
+    "question": "Which vitamin contains a cobalt atom at the center of its complex ring structure?",
+    "options": ["Vitamin B12", "Vitamin B6", "Vitamin B1", "Vitamin B2"],
+    "answer": "Vitamin B12",
+    "explanation": "Vitamin B12 (Cyanocobalamin) features a central cobalt ion coordinated within a corrin ring framework."
   },
   {
-    "id": 83,
-    "question": "Aldosterone antagonist",
-    "options": ["Spironolactone", "Amiloride", "Mannitol", "Acetazolamide"],
-    "correct_answer": "Spironolactone",
-    "explanation": "Spironolactone competitively blocks mineralocorticoid receptors, preventing aldosterone-driven sodium-potassium transport changes."
+    "id": "kpsc_q83",
+    "question": "The principal alkaloid extracted from the leaves of Atropa belladonna is:",
+    "options": ["Atropine", "Reserpine", "Quinine", "Vincristine"],
+    "answer": "Atropine",
+    "explanation": "Atropine is a tropane alkaloid harvested from Belladonna that acts as a competitive antagonist at muscarinic receptors."
   },
   {
-    "id": 84,
-    "question": "Antimalarial drug used in Rheumatoid arrthritis",
-    "options": ["Mepacrine", "Chloroquine", "Artemisine", "Pamaquine"],
-    "correct_answer": "Chloroquine",
-    "explanation": "Chloroquine (and hydroxychloroquine) possesses lysosomotropic and immunomodulatory properties that make it an effective DMARD for rheumatoid arthritis."
+    "id": "kpsc_q84",
+    "question": "Keller-Kiliani chemical identification test is specific for the detection of:",
+    "options": ["Digitoxose", "Anthraquinone glycosides", "Tropane alkaloids", "Saponins"],
+    "answer": "Digitoxose",
+    "explanation": "The Keller-Kiliani test produces a distinctive reddish-brown to blue color change indicating deoxysugars like digitoxose in cardiac glycosides."
   },
   {
-    "id": 85,
-    "question": "Selenium Sulfide is used as",
-    "options": ["Antimalarial", "Antileprotic", "Antifungal", "Antidandruff"],
-    "correct_answer": "Antidandruff",
-    "explanation": "Selenium sulfide reduces epidermal hyper-proliferation and clears Malassezia species, making it a standard ingredient in antidandruff shampoos."
+    "id": "kpsc_q85",
+    "question": "Which mechanism defines the functional antagonism observed when adrenaline is administered during anaphylaxis?",
+    "options": ["Physiological antagonism", "Chemical antagonism", "Competitive antagonism", "Non-competitive antagonism"],
+    "answer": "Physiological antagonism",
+    "explanation": "Adrenaline acts via separate receptors to produce biological actions completely opposite to histamine, exhibiting physiological antagonism."
   },
   {
-    "id": 86,
-    "question": "The process of loosing water of crystallisation from a substance is",
-    "options": ["Exudation", "Efflorescence", "Delequescence", "Diaphoretic"],
-    "correct_answer": "Efflorescence",
-    "explanation": "Efflorescence occurs when a hydrated crystalline substance loses its water of crystallization to the surrounding dry atmosphere."
+    "id": "kpsc_q86",
+    "question": "What is the primary site of release for the mineralocorticoid hormone Aldosterone?",
+    "options": ["Zona glomerulosa", "Zona fasciculata", "Zona reticularis", "Adrenal medulla"],
+    "answer": "Zona glomerulosa",
+    "explanation": "Aldosterone is produced and secreted exclusively by the outer zona glomerulosa layer of the adrenal cortex."
   },
   {
-    "id": 87,
-    "question": "Plantago ovata is used as",
-    "options": ["Expectorant", "Sweetening agent", "Analgesic", "Laxative"],
-    "correct_answer": "Laxative",
-    "explanation": "Plantago ovata (Isabgol) seeds and husks contain mucilage that absorbs water in the gut, working as a bulk-forming laxative."
+    "id": "kpsc_q87",
+    "question": "The principal diagnostic manifestation known as 'Cinchonism' is an adverse outcome caused by:",
+    "options": ["Quinine", "Digoxin", "Aspirin", "Morphine"],
+    "answer": "Quinine",
+    "explanation": "Toxicity from cinchona alkaloids like quinine manifests as cinchonism, characterized by tinnitus, headache, and blurred vision."
   },
   {
-    "id": 88,
-    "question": "Sucrose is a",
-    "options": ["Hexose", "Monosaccharides", "Disaccharides", "Polysaccharides"],
-    "correct_answer": "Disaccharides",
-    "explanation": "Sucrose is a disaccharide carbohydrate composed of glucose and fructose monosaccharide units joined by an alpha-1,2-glycosidic bond."
+    "id": "kpsc_q88",
+    "question": "Which chemical agent is preferred as a local anticoagulant in vacuum blood collection tubes used for glucose estimation?",
+    "options": ["Sodium fluoride", "Heparin", "EDTA", "Sodium citrate"],
+    "answer": "Sodium fluoride",
+    "explanation": "Sodium fluoride acts as a glycolysis inhibitor, preserving exact blood glucose concentrations for accurate clinical assays."
   },
   {
-    "id": 89,
-    "question": "An antidiabetic plant drug:",
-    "options": ["Withania somnifera", "Saraca indica", "Urginea maritima", "Gymnema sylvestre"],
-    "correct_answer": "Gymnema sylvestre",
-    "explanation": "Gymnema sylvestre (Gurmar) contains gymnemic acids that interact with sweetness and glucose absorption profiles, working as a natural antidiabetic."
+    "id": "kpsc_q89",
+    "question": "The diagnostic chemical feature standard across all Penicillin class molecules is a fused:",
+    "options": ["Thiazolidine and Beta-lactam ring", "Oxazolidine ring", "Imidazole ring", "Phenanthrene nucleus"],
+    "answer": "Thiazolidine and Beta-lactam ring",
+    "explanation": "Penicillins consist of a highly tense 4-membered beta-lactam ring fused directly to a 5-membered thiazolidine system."
   },
   {
-    "id": 90,
-    "question": "A tropane alkaloid:",
-    "options": ["Atropine", "Reserpine", "Ergometrine", "Diosgenin"],
-    "correct_answer": "Atropine",
-    "explanation": "Atropine is a classic tropane alkaloid derived from Solanaceae species such as Atropa belladonna."
+    "id": "kpsc_q90",
+    "question": "Which biological index is evaluated using the Limulus Amebocyte Lysate (LAL) test setup?",
+    "options": ["Bacterial endotoxins", "Sterility level", "Particulate matter count", "Fungal spores"],
+    "answer": "Bacterial endotoxins",
+    "explanation": "The LAL test utilizes horseshoe crab blood lysates to sensitive gel clot reactions triggered by bacterial pyrogens/endotoxins."
   },
   {
-    "id": 91,
-    "question": "Which one of the following is referred to as Good Cholesterol:",
-    "options": ["Triglycerides", "High density Lipoproteins", "Low density Lipoproteins", "Chylomicrons"],
-    "correct_answer": "High density Lipoproteins",
-    "explanation": "High-Density Lipoprotein (HDL) is known as 'good cholesterol' because it promotes reverse cholesterol transport, removing lipids from vessels."
+    "id": "kpsc_q91",
+    "question": "The principal therapeutic indicator for the administration of dynamic Methotrexate regimens is:",
+    "options": ["Antimetabolite cancer therapy", "Antimalarial intervention", "Broad spectrum antibiotic action", "Antihypertensive therapy"],
+    "answer": "Antimetabolite cancer therapy",
+    "explanation": "Methotrexate acts as a folate analogue antimetabolite, blocking dihydrofolate reductase to halt malignant DNA synthesis."
   },
   {
-    "id": 92,
-    "question": "Which part of the plant 'Opium poppy' is used for obtaining the active principles:",
-    "options": ["dried latex from stem", "dried latex from capsules", "dried latex from root", "dried latex from shoots"],
-    "correct_answer": "dried latex from capsules",
-    "explanation": "Opium and its alkaloids (morphine, codeine) are obtained by incising the unripe, scoring seed capsules of Papaver somniferum to harvest dried latex."
+    "id": "kpsc_q92",
+    "question": "Which morphological type of cells produce human antibodies within systemic circulation?",
+    "options": ["Plasma B cells", "T helper cells", "Natural killer cells", "Macrophage units"],
+    "answer": "Plasma B cells",
+    "explanation": "Activated B lymphocytes differentiate into specialized plasma cells configured to secrete high-volume specific immunoglobulins."
   },
   {
-    "id": 93,
-    "question": "Proton pump inhibitor used in the treatment of peptic ulcer",
-    "options": ["Rabeprazole", "Ranitidine", "Misoprostol", "Sucralfate"],
-    "correct_answer": "Rabeprazole",
-    "explanation": "Rabeprazole is a proton pump inhibitor (PPI) that covalently binds to the H+/K+-ATPase pump system inside gastric parietal cells, blocking acid secretion."
+    "id": "kpsc_q93",
+    "question": "The term used to identify the total structural mineral ash remaining following complete incineration of a crude herbal drug is:",
+    "options": ["Total ash value", "Acid-insoluble ash", "Water-soluble ash", "Sulfated ash value"],
+    "answer": "Total ash value",
+    "explanation": "Total ash evaluation determines both physiological ash from plant tissue and non-physiological ash from surface soil contamination."
   },
   {
-    "id": 94,
-    "question": "An example for a drug that induces cytochrome P450:",
-    "options": ["Phenytoin", "Omeprazole", "Allopurinol", "Chloramphenicol"],
-    "correct_answer": "Phenytoin",
-    "explanation": "Phenytoin is a well-established hepatic microsomal enzyme inducer that accelerates the metabolic breakdown of co-administered drugs."
+    "id": "kpsc_q94",
+    "question": "Which biochemical pathway transforms fatty acids into acetyl-CoA fragments?",
+    "options": ["Beta-oxidation", "Glycolysis", "Glycogenolysis", "Lipogenesis"],
+    "answer": "Beta-oxidation",
+    "explanation": "Beta-oxidation sequentially cleaves two-carbon segments from fatty acid chains within mitochondria to generate acetyl-CoA."
   },
   {
-    "id": 95,
-    "question": "Physostigmine is an example for",
-    "options": ["Adrenergic durg", "Anticholinergic drug", "Adrenergic blocking drug", "Anticholinesterase"],
-    "correct_answer": "Anticholinesterase",
-    "explanation": "Physostigmine is a reversible anticholinesterase agent that blocks acetylcholinesterase, prolonging the lifespan of acetylcholine in synaptic spaces."
+    "id": "kpsc_q95",
+    "question": "The highly dangerous physiological side effect uniquely correlated to Clozapine therapy is:",
+    "options": ["Agranulocytosis", "Gingival hyperplasia", "Ototoxicity", "Nephrogenic diabetes"],
+    "answer": "Agranulocytosis",
+    "explanation": "Clozapine can induce life-threatening agranulocytosis, requiring strict, mandatory white blood cell monitoring."
   },
   {
-    "id": 96,
-    "question": "A Non Steroidal Anti Inflammatory Drug derived from anthranilic acid:",
-    "options": ["Mephenemic acid", "Ibuprofen", "Indomethacin", "Diclofenac Sodium"],
-    "correct_answer": "Mephenemic acid",
-    "explanation": "Mefenamic acid belongs structurally to the fenamate chemical family, which are derivatives of anthranilic acid."
+    "id": "kpsc_q96",
+    "question": "Which standard container design resists entry of ambient atmospheric moisture under routine storage operations?",
+    "options": ["Tightly-closed container", "Well-closed container", "Hermetically sealed container", "Light-resistant container"],
+    "answer": "Tightly-closed container",
+    "explanation": "A tightly-closed container protects contents from contamination, loss of contents, and access to atmospheric moisture."
   },
   {
-    "id": 97,
-    "question": "A hormone secreted by the anterior lobe of pituitary gland:",
-    "options": ["Mineralocorticoids", "Gonadotropin releasing hormone", "Growth hormone", "Thyrotropin releasing hormone"],
-    "correct_answer": "Growth hormone",
-    "explanation": "Growth Hormone (somatotropin) is synthesized and released by somatotroph cells in the anterior pituitary gland."
+    "id": "kpsc_q97",
+    "question": "The functional biological role performed by structural tRNA during intracellular protein assembly is:",
+    "options": ["Transporting specific amino acids", "Transcribing genomic patterns", "Forming structural ribosomes", "Degrading misfolded peptides"],
+    "answer": "Transporting specific amino acids",
+    "explanation": "Transfer RNA molecules carry specific amino acids to ribosomes, matching codons via their specialized anticodon loops."
   },
   {
-    "id": 98,
-    "question": "An drug which inhibits spermatogenesis, used as male contraceptive",
-    "options": ["Tamoxifen", "Norethindrone", "Levonorgestrel", "Gossypol"],
-    "correct_answer": "Gossypol",
-    "explanation": "Gossypol is a natural polyphenolic compound isolated from cotton plants that acts as a male contraceptive by suppressing spermatogenesis."
+    "id": "kpsc_q98",
+    "question": "Which dynamic physical mechanism controls mass particle size reduction within an industrial hammer mill assembly?",
+    "options": ["Impact forces", "Attrition forces", "Compression forces", "Shearing action"],
+    "answer": "Impact forces",
+    "explanation": "Hammer mills process feed materials using high-velocity impact forces generated by heavy rotating hammers."
   },
   {
-    "id": 99,
-    "question": "An Angiotensin antagonist:",
-    "options": ["Captopril", "Losartan", "Verapamil", "Nicorandil"],
-    "correct_answer": "Losartan",
-    "explanation": "Losartan is an Angiotensin II receptor blocker (ARB) that blocks the AT1 receptor subtype, whereas Captopril is an ACE inhibitor."
+    "id": "kpsc_q99",
+    "question": "The unique structural chemical signature found inside all therapeutic Phenothiazine antipsychotic molecules is a:",
+    "options": ["Three-ring framework with Sulfur and Nitrogen", "Fused imidazole layout", "Pure dibenzazepine profile", "Fluorobutyrophenone core"],
+    "answer": "Three-ring framework with Sulfur and Nitrogen",
+    "explanation": "Phenothiazines are characterized by a tricyclic structure containing bridge heteroatoms of sulfur and nitrogen."
   },
   {
-    "id": 100,
-    "question": "Lovastatin is",
-    "options": ["Antifibrinolytic agent", "H2 receptor antagonist", "HMG Co-A reductase inhibitor", "Lipoprotein lipase activator"],
-    "correct_answer": "HMG Co-A reductase inhibitor",
-    "explanation": "Lovastatin is a statin that competitively blocks HMG-CoA reductase, the rate-limiting enzyme in hepatic cholesterol synthesis pathways."
+    "id": "kpsc_q100",
+    "question": "What primary statutory role is executed by the central Drug Technical Advisory Board (DTAB) in India?",
+    "options": ["Advising central and state governments on technical drug rules", "Issuing retail manufacturing licenses", "Fixing retail drug market pricing structures", "Conducting clinical trials on new biologicals"],
+    "answer": "Advising central and state governments on technical drug rules",
+    "explanation": "The DTAB is a statutory body constituted under the Drugs and Cosmetics Act to advise governments on all technical matters arising from the administration of the act."
   }
 ]
