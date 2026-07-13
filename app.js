@@ -1,19 +1,18 @@
 let questions = [];
 let currentQuestionIndex = 0;
 let score = 0;
-// Track indices of favorited questions using a Set to avoid duplicates
 let favorites = new Set(); 
 
 const questionText = document.getElementById('question-text');
 const optionsContainer = document.getElementById('options-container');
 const explanationBox = document.getElementById('explanation-box');
 const nextBtn = document.getElementById('next-btn');
-const backBtn = document.getElementById('back-btn'); // NEW
-const skipBtn = document.getElementById('skip-btn'); // NEW
-const favBtn = document.getElementById('fav-btn');   // NEW
+const backBtn = document.getElementById('back-btn'); 
+const skipBtn = document.getElementById('skip-btn'); 
+const favBtn = document.getElementById('fav-btn');   
 const progressText = document.getElementById('progress');
 const scoreText = document.getElementById('score');
-const favoritesListContainer = document.getElementById('favorites-list'); // NEW (Optional UI display)
+const favoritesListContainer = document.getElementById('favorites-list'); 
 
 // 1. Fetch your custom JSON file
 async function loadQuizData() {
@@ -35,7 +34,6 @@ function showQuestion() {
     progressText.innerText = `Question ${currentQuestionIndex + 1} of ${questions.length}`;
     questionText.innerText = currentQuestion.question;
 
-    // Update Favorite Button state for the current question
     updateFavButtonUI();
 
     currentQuestion.options.forEach(option => {
@@ -46,25 +44,19 @@ function showQuestion() {
         optionsContainer.appendChild(button);
     });
 
-    // Control visibility of the Back button
+    // Toggle Visibility logic for Navigation
     if (currentQuestionIndex > 0) {
         backBtn.classList.remove('hidden');
     } else {
         backBtn.classList.add('hidden');
     }
-
-    // Show Skip button only if the question hasn't been answered yet
     skipBtn.classList.remove('hidden');
 }
 
 // 3. Handle user selection
 function selectOption(selectedButton, questionData) {
     const allButtons = optionsContainer.querySelectorAll('.option-btn');
-    
-    // Disable all options once a choice is made
     allButtons.forEach(btn => btn.disabled = true);
-
-    // Hide the Skip button since they just answered it
     skipBtn.classList.add('hidden');
 
     if (selectedButton.innerText === questionData.correct_answer) {
@@ -89,7 +81,7 @@ function resetState() {
     optionsContainer.innerHTML = '';
 }
 
-// 4. Handle Next Button click
+// 4. Navigation Event Handlers
 nextBtn.addEventListener('click', () => {
     currentQuestionIndex++;
     if (currentQuestionIndex < questions.length) {
@@ -99,7 +91,6 @@ nextBtn.addEventListener('click', () => {
     }
 });
 
-// 5. NEW: Handle Back Button click
 backBtn.addEventListener('click', () => {
     if (currentQuestionIndex > 0) {
         currentQuestionIndex--;
@@ -107,7 +98,6 @@ backBtn.addEventListener('click', () => {
     }
 });
 
-// 6. NEW: Handle Skip Button click
 skipBtn.addEventListener('click', () => {
     currentQuestionIndex++;
     if (currentQuestionIndex < questions.length) {
@@ -117,7 +107,7 @@ skipBtn.addEventListener('click', () => {
     }
 });
 
-// 7. NEW: Handle Favorite Button toggle
+// 5. Favorites Toggle Logic
 favBtn.addEventListener('click', () => {
     if (favorites.has(currentQuestionIndex)) {
         favorites.delete(currentQuestionIndex);
@@ -125,10 +115,9 @@ favBtn.addEventListener('click', () => {
         favorites.add(currentQuestionIndex);
     }
     updateFavButtonUI();
-    renderFavoritesList(); // Optional: updates a side panel or list view of favorites
+    renderFavoritesList(); 
 });
 
-// Helper to change the look of the favorite button based on status
 function updateFavButtonUI() {
     if (favorites.has(currentQuestionIndex)) {
         favBtn.innerText = "★ Unfavorite";
@@ -139,7 +128,6 @@ function updateFavButtonUI() {
     }
 }
 
-// Helper to handle the end of the quiz
 function showQuizCompleteState() {
     resetState();
     backBtn.classList.add('hidden');
@@ -149,11 +137,10 @@ function showQuizCompleteState() {
     questionText.innerText = `You finished! Your final score is ${score} out of ${questions.length}.`;
 }
 
-// Optional helper to list out all favorited questions at the bottom or side panel
 function renderFavoritesList() {
     if (!favoritesListContainer) return;
-    
     favoritesListContainer.innerHTML = '';
+    
     if (favorites.size === 0) {
         favoritesListContainer.innerHTML = '<li>No favorite questions saved yet.</li>';
         return;
@@ -161,17 +148,16 @@ function renderFavoritesList() {
 
     favorites.forEach(index => {
         const li = document.createElement('li');
-        li.innerText = questions[index].question;
-        // Optional: click to jump back to this question
+        li.innerText = `Q${index + 1}: ${questions[index].question}`;
         li.style.cursor = 'pointer';
         li.addEventListener('click', () => {
             currentQuestionIndex = index;
-            favBtn.classList.remove('hidden'); // ensure it's visible if it was hidden at the end screen
+            favBtn.classList.remove('hidden'); 
             showQuestion();
         });
         favoritesListContainer.appendChild(li);
     });
 }
 
-// Start the application
+// Initialize
 loadQuizData();
