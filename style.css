@@ -36,6 +36,15 @@ body {
     margin-top: 10px;
 }
 
+.timer-display {
+    background: #edf2f7;
+    padding: 4px 10px;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 14px;
+    color: var(--primary);
+}
+
 .options-grid {
     display: flex;
     flex-direction: column;
@@ -116,62 +125,37 @@ footer {
     background: #2b6cb0dd;
 }
 
-.fav-action-btn {
-    background: transparent;
-    border: 1px solid #cbd5e0;
-    padding: 6px 12px;
-    border-radius: 20px;
-    cursor: pointer;
-    font-weight: 500;
-    transition: all 0.2s;
-}
-
-.fav-action-btn.favorited {
-    background: #fefcbf;
-    border-color: var(--warning);
-    color: #b7791f;
-}
-
 .section-divider {
     border: 0;
     border-top: 1px solid #edf2f7;
-    margin: 30px 0 20px 0;
+    margin: 25px 0 15px 0;
 }
 
-.favorites-section h3 {
-    font-size: 16px;
-    margin-bottom: 10px;
+.bulk-actions-container {
+    width: 100%;
+    text-align: center;
 }
 
-#favorites-list {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    max-height: 150px;
-    overflow-y: auto;
-}
-
-#favorites-list li {
-    padding: 8px 12px;
-    background: #f7fafc;
-    margin-bottom: 6px;
+.skip-all-btn {
+    background: transparent;
+    color: var(--danger);
+    border: 1px dashed var(--danger);
+    padding: 10px 16px;
     border-radius: 6px;
-    font-size: 14px;
-    border: 1px solid #e2e8f0;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    transition: background 0.2s;
+    cursor: pointer;
+    font-weight: 500;
+    width: 100%;
+    transition: all 0.2s;
 }
 
-#favorites-list li:hover {
-    background: #edf2f7;
+.skip-all-btn:hover {
+    background: #fff5f5;
 }
 
-/* Completion Screen Summaries Extensions */
+/* Review Lists Extension Setup */
 .review-wrapper {
     width: 100%;
-    max-height: 450px;
+    max-height: 400px;
     overflow-y: auto;
     text-align: left;
     padding-right: 10px;
@@ -189,6 +173,11 @@ footer {
 
 .correct-tag {
     color: var(--success);
+    font-weight: bold;
+}
+
+.skipped-tag {
+    color: var(--warning);
     font-weight: bold;
 }
 
