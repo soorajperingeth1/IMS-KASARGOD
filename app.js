@@ -5,12 +5,12 @@ let score = 0;
 // Tracking structures
 let wrongQuestions = []; 
 let skippedQuestions = [];
-let answeredQuestions = new Set(); // Fixes double scoring bug
+let answeredQuestions = new Set(); 
 
 // Timer variables
 let startTime;
 let timerInterval;
-let totalTimeElapsed = 0; // in seconds
+let totalTimeElapsed = 0; 
 
 const questionText = document.getElementById('question-text');
 const optionsContainer = document.getElementById('options-container');
@@ -24,17 +24,42 @@ const scoreText = document.getElementById('score');
 const timerDisplay = document.getElementById('quiz-timer');
 const bulkActions = document.getElementById('bulk-actions');
 
-// 1. Fetch JSON file
+// 1. Fetch JSON file and Shuffle ONLY Options
 async function loadQuizData() {
     try {
         const response = await fetch('quiz-data.json');
-        questions = await response.json();
+        const rawData = await response.json();
+        
+        // Keep questions in their original order
+        questions = rawData;
+        
+        // NEW/UPDATED: Shuffle ONLY the options inside each individual question
+        questions.forEach(q => {
+            q.options = shuffleArray(q.options);
+        });
+
         startTimer();
         showQuestion();
     } catch (error) {
         questionText.innerText = "Failed to load quiz questions.";
         console.error(error);
     }
+}
+
+// Fisher-Yates Shuffling Utility Function
+function shuffleArray(array) {
+    let currentIndex = array.length, randomIndex;
+    let shuffled = [...array]; 
+
+    while (currentIndex !== 0) {
+        randomIndex = Math.floor(Math.random() * currentIndex);
+        currentIndex--;
+
+        [shuffled[currentIndex], shuffled[randomIndex]] = [
+            shuffled[randomIndex], shuffled[currentIndex]
+        ];
+    }
+    return shuffled;
 }
 
 // 2. Timer Mechanics
@@ -74,7 +99,6 @@ function showQuestion() {
         backBtn.classList.add('hidden');
     }
     
-    // Clear dynamic skip button states if already evaluated
     skipBtn.classList.remove('hidden');
 }
 
@@ -84,10 +108,7 @@ function selectOption(selectedButton, questionData) {
     allButtons.forEach(btn => btn.disabled = true);
     skipBtn.classList.add('hidden');
 
-    // Remove from skipped list if they backed into it and answered
     skippedQuestions = skippedQuestions.filter(index => index !== currentQuestionIndex);
-
-    // FIXED: Only process points if this specific question has never been answered before
     const wasAlreadyAnswered = answeredQuestions.has(currentQuestionIndex);
 
     if (selectedButton.innerText === questionData.correct_answer) {
@@ -107,7 +128,6 @@ function selectOption(selectedButton, questionData) {
         }
     }
 
-    // Mark as answered now
     answeredQuestions.add(currentQuestionIndex);
 
     explanationBox.innerText = `Explanation: ${questionData.explanation}`;
@@ -139,7 +159,6 @@ backBtn.addEventListener('click', () => {
 });
 
 skipBtn.addEventListener('click', () => {
-    // Only track as skipped if it wasn't already answered previously
     if (!answeredQuestions.has(currentQuestionIndex) && !skippedQuestions.includes(currentQuestionIndex)) {
         skippedQuestions.push(currentQuestionIndex);
     }
@@ -152,10 +171,8 @@ skipBtn.addEventListener('click', () => {
     }
 });
 
-// Skip All Button Handler
 skipAllBtn.addEventListener('click', () => {
     if (confirm("Are you sure you want to skip all remaining questions and view your summary?")) {
-        // Collect all remaining unanswered questions into skipped pool
         for (let i = currentQuestionIndex; i < questions.length; i++) {
             if (!answeredQuestions.has(i) && !skippedQuestions.includes(i)) {
                 skippedQuestions.push(i);
@@ -167,7 +184,7 @@ skipAllBtn.addEventListener('click', () => {
 
 // 6. Complete State View Processing
 function showQuizCompleteState() {
-    clearInterval(timerInterval); // Stop stopwatch
+    clearInterval(timerInterval); 
     resetState();
     
     backBtn.classList.add('hidden');
@@ -218,7 +235,6 @@ function showQuizCompleteState() {
     optionsContainer.appendChild(reviewWrapper);
 }
 
-// Build Display Node Blocks
 function createReviewBlock(labelIndex, qData, isSkipped) {
     const block = document.createElement('div');
     block.classList.add('review-card');
@@ -243,5 +259,5 @@ function createReviewBlock(labelIndex, qData, isSkipped) {
     return block;
 }
 
-// Initialize Application
 loadQuizData();
+        
