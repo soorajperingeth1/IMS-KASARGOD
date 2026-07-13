@@ -10,7 +10,11 @@
     <div class="quiz-container">
         <header>
             <h1>Pharmacy Board Quiz</h1>
-            <div id="progress">Question 1 of 100</div>
+            <div class="header-controls">
+                <div id="progress">Question 1 of 100</div>
+                <!-- NEW: Favorite Button -->
+                <button id="fav-btn" class="fav-action-btn">☆ Favorite</button>
+            </div>
         </header>
 
         <div id="quiz-box">
@@ -21,8 +25,22 @@
 
         <footer>
             <div id="score-board">Score: <span id="score">0</span></div>
-            <button id="next-btn" class="hidden">Next Question</button>
+            <!-- NEW: Navigation Grid Controls -->
+            <div class="nav-controls">
+                <button id="back-btn" class="nav-btn hidden">Back</button>
+                <button id="skip-btn" class="nav-btn">Skip</button>
+                <button id="next-btn" class="nav-btn primary-btn hidden">Next</button>
+            </div>
         </footer>
+
+        <!-- NEW: Favorite Section display panel -->
+        <hr class="section-divider">
+        <div class="favorites-section">
+            <h3>★ Favorite Questions List</h3>
+            <ul id="favorites-list">
+                <li>No favorite questions saved yet.</li>
+            </ul>
+        </div>
     </div>
     <script src="app.js"></script>
 </body>
